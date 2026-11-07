@@ -47,6 +47,22 @@ class WidgetTests(unittest.TestCase):
         self.assertEqual(sum('data-api' in a for _,a in self.elements),6)
         self.assertEqual(sum('data-scene-track' in a for _,a in self.elements),3)
         self.assertEqual(sum('data-code' in a for _,a in self.elements),5)
+    def test_resilient_project_illustration(self):
+        import xml.etree.ElementTree as ET
+        image = ROOT / 'assets/desktop-in-stereo.svg'
+        svg = ET.parse(image)
+        self.assertEqual(svg.getroot().get('viewBox'), '0 0 800 680')
+        self.assertNotIn('<script', image.read_text())
+        for name in ['index.html', 'side-projects.html']:
+            text = (ROOT / name).read_text()
+            doc = Document(text)
+            images = [a for t,a in doc.elements if t == 'img' and a.get('src') == 'assets/desktop-in-stereo.svg']
+            self.assertEqual(len(images), 1)
+            self.assertEqual((images[0]['width'], images[0]['height']), ('800', '680'))
+            self.assertIn('width:100%', images[0]['style'])
+            self.assertIn('styles.css?v=stereo-card-2', text)
+            self.assertNotIn('class="feature-sleeve"', text)
+
     def test_portfolio_entry_points(self):
         home=(ROOT/'index.html').read_text()
         self.assertIn('id="widgets"',home)

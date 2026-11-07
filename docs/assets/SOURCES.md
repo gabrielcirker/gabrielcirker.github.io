@@ -15,3 +15,5 @@ The contact address and current affiliation follow the already-public 2026 rowin
 ## Spotify Title Lab
 
 - `spotify-word-weighting.png`: original aggregate analysis figure from Gabriel Cirker’s Spotify listening history, approved for public release on 2026-11-07. The report at `projects/spotify-title-lab/` embeds all six original analysis charts. The public page does not include the original export, account fields, exact listening timestamps, or individual listening records.
+
+- `desktop-in-stereo.svg`: original vector illustration for Gabriel Cirker’s widget project. Drawn as a self-contained SVG with geometric record/sleeve shapes and system-font lettering; no external artwork or listening data.

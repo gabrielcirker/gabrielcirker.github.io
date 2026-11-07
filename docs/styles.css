@@ -759,7 +759,7 @@ p+p {
 .widget-feature h2{font-size:clamp(38px,5vw,68px);letter-spacing:-.06em;line-height:1.02;margin:22px 0}
 .widget-feature-copy>p{max-width:580px}.widget-feature-copy .widget-feature-note{font-size:14px;color:var(--muted)}
 .widget-feature .button{background:#173d2b;color:#efffe8;border-color:#173d2b;margin-top:20px}
-.widget-feature-art{display:block;position:relative;aspect-ratio:1.13;background:#101c15;color:#e6f8dc;overflow:hidden;border:1px solid #35503a;text-decoration:none;isolation:isolate}
+.widget-feature-art{display:block;position:relative;aspect-ratio:800/680;background:#101c15;color:#e6f8dc;overflow:hidden;border:1px solid #35503a;text-decoration:none;isolation:isolate}
 .feature-record{position:absolute;width:74%;aspect-ratio:1;right:-4%;top:10%;border-radius:50%;background:repeating-radial-gradient(circle,#101912 0 3px,#3a4a3a 4px,#132016 5px);box-shadow:0 12px 30px #0008;transition:transform .8s}
 .feature-record i{position:absolute;inset:35%;border-radius:50%;background:#a0f5ad;border:3px solid #6d9569}.feature-record i:after{content:"";position:absolute;inset:45%;border-radius:50%;background:#163823}
 .feature-sleeve{position:absolute;left:7%;top:24%;width:58%;aspect-ratio:1;background:#e7f4d5;color:#183b23;transform:rotate(-12deg);padding:6%;overflow:hidden;box-shadow:10px 15px 28px #0008;transition:transform .7s}
@@ -772,3 +772,8 @@ p+p {
 @media(max-width:700px){.widget-feature{grid-template-columns:1fr;padding-top:48px;padding-bottom:48px}.widget-feature-art{width:100%;max-width:520px}.feature-sleeve strong{font-size:clamp(24px,8vw,42px)}.widget-feature h2{font-size:44px}.project>.widget-feature-art{margin-top:24px}}
 @media(prefers-reduced-motion:reduce){.feature-record,.feature-sleeve{transition:none}.widget-feature-art:hover .feature-record{transform:none}.widget-feature-art:hover .feature-sleeve{transform:rotate(-12deg)}}
 @media print{.widget-feature{display:block;break-inside:avoid;padding:24px 0}.widget-feature-art{max-width:300px;margin-top:20px}}
+
+/* The project illustration is a self-contained SVG, independent of cached CSS. */
+.widget-feature-art img{display:block;width:100%;height:auto;transition:transform .65s ease}
+.widget-feature-art:hover img{transform:scale(1.015)}
+@media(prefers-reduced-motion:reduce){.widget-feature-art img{transition:none}.widget-feature-art:hover img{transform:none}}
