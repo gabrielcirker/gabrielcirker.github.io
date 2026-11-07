@@ -12,6 +12,8 @@ A personal, responsive portfolio for school projects, research, and passion proj
 
 ## Side projects
 
+- [Desktop in Stereo](https://gabrielcirker.github.io/desktop-widgets/): a music-led, interactive widget walkthrough. Fictional scenes, original CSS art, vetted short code excerpts, API explanations, and clear native-runtime limitations. No live account integration or private runtime data.
+
 - [Spotify Title Lab](https://gabrielcirker.github.io/projects/spotify-title-lab/): a public aggregate report with six charts and an interactive 279-word lexicon. The original export and individual listening records are not included.
 - [Side Projects](https://gabrielcirker.github.io/side-projects.html): the portfolio entry point for personal experiments.
 
@@ -22,6 +24,7 @@ A personal, responsive portfolio for school projects, research, and passion proj
 - `docs/resume.html`: Resume & CV tab with public-download availability
 - `docs/side-projects.html`: side-project index with the Spotify project blurb
 - `docs/projects/spotify-title-lab/index.html`: self-contained public Spotify report
+- `docs/desktop-widgets/index.html`: self-contained creative widget showcase with local JavaScript interactions
 - `docs/styles.css`: responsive layout, accessibility, and print styles
 - `docs/assets/`: original project figures and favicon; provenance in `SOURCES.md`
 - `docs/404.html`, `robots.txt`, `sitemap.xml`: navigation and indexing support

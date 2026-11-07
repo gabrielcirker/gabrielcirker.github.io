@@ -753,3 +753,22 @@ p+p {
     font-size:20pt;
   }
 }
+
+/* A distinct doorway into the music-led desktop project. Original CSS artwork. */
+.widget-feature{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:center;padding-top:84px;padding-bottom:84px;border-top:1px solid var(--line)}
+.widget-feature h2{font-size:clamp(38px,5vw,68px);letter-spacing:-.06em;line-height:1.02;margin:22px 0}
+.widget-feature-copy>p{max-width:580px}.widget-feature-copy .widget-feature-note{font-size:14px;color:var(--muted)}
+.widget-feature .button{background:#173d2b;color:#efffe8;border-color:#173d2b;margin-top:20px}
+.widget-feature-art{display:block;position:relative;aspect-ratio:1.13;background:#101c15;color:#e6f8dc;overflow:hidden;border:1px solid #35503a;text-decoration:none;isolation:isolate}
+.feature-record{position:absolute;width:74%;aspect-ratio:1;right:-4%;top:10%;border-radius:50%;background:repeating-radial-gradient(circle,#101912 0 3px,#3a4a3a 4px,#132016 5px);box-shadow:0 12px 30px #0008;transition:transform .8s}
+.feature-record i{position:absolute;inset:35%;border-radius:50%;background:#a0f5ad;border:3px solid #6d9569}.feature-record i:after{content:"";position:absolute;inset:45%;border-radius:50%;background:#163823}
+.feature-sleeve{position:absolute;left:7%;top:24%;width:58%;aspect-ratio:1;background:#e7f4d5;color:#183b23;transform:rotate(-12deg);padding:6%;overflow:hidden;box-shadow:10px 15px 28px #0008;transition:transform .7s}
+.feature-sleeve strong{position:relative;font-size:clamp(21px,3vw,42px);line-height:.9;letter-spacing:-.06em;z-index:1;display:inline-block;background:#e7f4d5;padding-bottom:3px}
+.feature-sleeve>i{position:absolute;inset:38% -15% -30%;border:30px solid #224c31;border-radius:50%;transform:rotate(35deg)}.feature-sleeve>i:after{content:"";position:absolute;inset:15%;border:22px solid #739558;border-radius:50%}
+.feature-sleeve small{position:absolute;bottom:9%;left:10%;font:7px/1.4 ui-monospace,monospace;background:#e7f4d5;padding:3px;z-index:1}
+.feature-caption{position:absolute;left:7%;right:7%;bottom:6%;font:10px/1.4 ui-monospace,monospace;color:#c0d8bc;display:flex;justify-content:space-between}
+.widget-feature-art:hover .feature-record{transform:rotate(35deg)}.widget-feature-art:hover .feature-sleeve{transform:rotate(-5deg) translateY(-5px)}
+@media(max-width:900px){.widget-feature{gap:32px}.feature-sleeve strong{font-size:28px}}
+@media(max-width:700px){.widget-feature{grid-template-columns:1fr;padding-top:48px;padding-bottom:48px}.widget-feature-art{width:100%;max-width:520px}.feature-sleeve strong{font-size:clamp(24px,8vw,42px)}.widget-feature h2{font-size:44px}.project>.widget-feature-art{margin-top:24px}}
+@media(prefers-reduced-motion:reduce){.feature-record,.feature-sleeve{transition:none}.widget-feature-art:hover .feature-record{transform:none}.widget-feature-art:hover .feature-sleeve{transform:rotate(-12deg)}}
+@media print{.widget-feature{display:block;break-inside:avoid;padding:24px 0}.widget-feature-art{max-width:300px;margin-top:20px}}

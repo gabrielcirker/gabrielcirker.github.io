@@ -33,5 +33,12 @@
     "title": "Spotify Title Lab",
     "section": "A year of listening, a corpus of titles",
     "text": "A reproducible R research lab with six charts and a searchable 279-word lexicon. Personal Spotify data, word weighting, annotation sensitivity, rarefaction, diversity, and monthly change."
+  },
+  {
+    "objectID": "desktop-widgets/",
+    "href": "desktop-widgets/",
+    "title": "Desktop in Stereo",
+    "section": "Music-led desktop experiments",
+    "text": "Gabriel Cirker’s passion project: Spotify-connected widgets, artwork-driven themes, local APIs, Python, JavaScript, Lua, and Rainmeter. Interactive fictional scenes and code experiments."
   }
 ]

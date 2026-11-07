@@ -94,7 +94,7 @@ class PortfolioTests(unittest.TestCase):
     def test_metadata_files(self):
         ET.parse(ROOT / "sitemap.xml")
         ET.parse(ROOT / "assets/favicon.svg")
-        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "projects/spotify-title-lab/"}
+        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "projects/spotify-title-lab/", "desktop-widgets/"}
         entries = json.loads((ROOT / "search.json").read_text())
         self.assertEqual({entry["href"] for entry in entries}, expected)
         sitemap = ET.parse(ROOT / "sitemap.xml")
