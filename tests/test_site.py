@@ -136,6 +136,11 @@ class PortfolioTests(unittest.TestCase):
         portrait = (ROOT / "assets/gabriel-cirker-headshot.png").read_bytes()
         self.assertEqual(hashlib.sha256(portrait).hexdigest(), "cd5bc1fac47174fdf817e41acadfa586f0ded19bf4113f370347f61f7d13e2fd")
         self.assertEqual(text.count('aria-label="Portfolio overview"'), 1)
+    def test_about_preserves_affiliations_without_decorative_dates(self):
+        text = (ROOT / "about.html").read_text()
+        self.assertIn("The original mechanics manuscripts list St. John’s University.", text)
+        self.assertIn("The revisions separately identify the updated University of Michigan affiliation.", text)
+        self.assertNotRegex(text, r"\b(?:19|20)\d{2}\b")
     def test_responsive_and_keyboard_styles(self):
         css = (ROOT / "styles.css").read_text()
         for term in ("max-width:700px", ":focus-visible", ".skip-link:focus", "prefers-reduced-motion", "@media print"):
