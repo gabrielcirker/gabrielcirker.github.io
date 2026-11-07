@@ -14,6 +14,7 @@ A personal, responsive portfolio for school projects, research, and passion proj
 
 - `docs/index.html`: homepage and selected projects
 - `docs/about.html`: background and project scope
+- `docs/resume.html`: Resume & CV tab with public-download availability
 - `docs/styles.css`: responsive layout, accessibility, and print styles
 - `docs/assets/`: original project figures and favicon; provenance in `SOURCES.md`
 - `docs/404.html`, `robots.txt`, `sitemap.xml`: navigation and indexing support
@@ -39,7 +40,7 @@ The homepage links only to public project repositories and uses the U-M contact 
 
 ## Updating content
 
-Edit the HTML and CSS directly. Keep project claims aligned with their linked reports and label simulation limitations. Before publishing, run tests, check desktop and narrow-screen layouts, verify external links, and inspect the author/committer metadata. Add résumé/CV links only after the documents have been reviewed and approved for public release.
+Edit the HTML and CSS directly. Keep project claims aligned with their linked reports and label simulation limitations. Before publishing, run tests, check desktop and narrow-screen layouts, verify external links, and inspect the author/committer metadata. The Resume & CV tab currently shows a coming-soon status without document links. Add résumé/CV downloads only after the documents have been reviewed and approved for public release.
 
 ## Adding a school or passion project
 

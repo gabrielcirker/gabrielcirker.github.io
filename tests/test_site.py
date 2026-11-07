@@ -7,7 +7,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1] / "docs"
-PAGES = [ROOT / name for name in ("index.html", "about.html", "404.html")]
+PAGES = [ROOT / name for name in ("index.html", "about.html", "resume.html", "404.html")]
 class Document(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
@@ -78,8 +78,25 @@ class PortfolioTests(unittest.TestCase):
     def test_metadata_files(self):
         ET.parse(ROOT / "sitemap.xml")
         ET.parse(ROOT / "assets/favicon.svg")
-        self.assertEqual(len(json.loads((ROOT / "search.json").read_text())), 2)
+        expected = {"index.html", "about.html", "resume.html"}
+        entries = json.loads((ROOT / "search.json").read_text())
+        self.assertEqual({entry["href"] for entry in entries}, expected)
+        sitemap = ET.parse(ROOT / "sitemap.xml")
+        urls = {node.text for node in sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")}
+        self.assertIn("https://gabrielcirker.github.io/resume.html", urls)
         self.assertTrue((ROOT / ".nojekyll").exists())
+    def test_resume_navigation_and_publication_status(self):
+        for name in ("index.html", "about.html", "resume.html"):
+            doc = Document((ROOT / name).read_text())
+            links = [attrs for tag, attrs in doc.elements if tag == "a" and attrs.get("href") == "resume.html"]
+            self.assertEqual(len(links), 1, name)
+            self.assertEqual(links[0].get("aria-current"), "page" if name == "resume.html" else None)
+        text = (ROOT / "resume.html").read_text()
+        self.assertEqual(text.count('class="document-status">Coming soon'), 2)
+        for tag, attrs in Document(text).elements:
+            if tag == "a":
+                self.assertNotIn("download", attrs)
+                self.assertNotIn(Path(urlparse(attrs["href"]).path).suffix.lower(), (".pdf", ".docx", ".doc"))
     def test_responsive_and_keyboard_styles(self):
         css = (ROOT / "styles.css").read_text()
         for term in ("max-width:700px", ":focus-visible", ".skip-link:focus", "prefers-reduced-motion", "@media print"):
