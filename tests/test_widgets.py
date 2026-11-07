@@ -63,6 +63,9 @@ class WidgetTests(unittest.TestCase):
             self.assertIn('styles.css?v=portfolio-3', text)
             self.assertNotIn('class="feature-sleeve"', text)
 
+    def test_widget_tablet_navigation_visible(self):
+        self.assertIn(".mast .nav a{display:block!important}", self.text)
+
     def test_portfolio_entry_points(self):
         home=(ROOT/'index.html').read_text()
         self.assertIn('id="widgets"',home)

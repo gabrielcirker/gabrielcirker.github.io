@@ -44,6 +44,9 @@ body{background:var(--paper);color:var(--ink)}.mast{background:#0b1210}.brand-ic
 @media(max-width:600px){.mast{padding:22px 20px 16px;gap:15px}.mast .brand{font-size:12px}.mast .nav{display:flex!important;gap:8px 23px;font-size:11px}.mast .nav a{display:block!important;font-size:10px}.mast .motion-toggle{font-size:9px;min-height:36px;padding:8px 10px}.status-top{padding-inline:20px;gap:5px;font-size:8px}.status-top span:last-child{display:none}.walkthrough-tools{padding-block:22px}.walkthrough-tools nav{gap:5px 23px}.walkthrough-tools a{font-size:12px}.manifesto{padding-block:60px}.story-foot{gap:24px}.personal-statement{font-size:15px;line-height:1.8}.story-foot p{font-size:13px}.section-line{margin-bottom:34px}.title-row p{font-size:14px;line-height:1.75}.scene-caveat{font-size:12px;line-height:1.75}.api-two p,.api-boundary p{font-size:13px;line-height:1.7}.notes p{font-size:14px}.native-boundaries p{font-size:13px;line-height:1.75}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 @media print{.walkthrough-tools,.mast,.status-top{display:none}}
+
+/* Keep page navigation visible at intermediate tablet widths. */
+.mast .nav a{display:block!important}
 </style>
 </head>
 <body>
