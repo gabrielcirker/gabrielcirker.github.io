@@ -108,11 +108,24 @@ class PortfolioTests(unittest.TestCase):
             self.assertEqual(len(links), 1, name)
             self.assertEqual(links[0].get("aria-current"), "page" if name == "resume.html" else None)
         text = (ROOT / "resume.html").read_text()
-        self.assertEqual(text.count('class="document-status">Coming soon'), 2)
+        self.assertNotIn("coming soon", text.lower())
+        approved = {
+            "Gabriel_Cirker_Resume.pdf": "ef9575205674db733f0fc4d149cf624400f5f33c5d5ed6122ea2c7b20a8e7eff",
+            "Gabriel_Cirker_CV.pdf": "2da3cf4b44f383f5409112261ae4306ce8111982ca8ecca8236d874080d0b755",
+        }
+        for name, digest in approved.items():
+            relative = "assets/documents/" + name
+            links = [attrs for tag, attrs in Document(text).elements if tag == "a" and attrs.get("href") == relative]
+            self.assertEqual(len(links), 2, name)
+            self.assertEqual(sum("download" not in attrs for attrs in links), 1)
+            self.assertEqual([attrs["download"] for attrs in links if "download" in attrs], [name])
+            content = (ROOT / relative).read_bytes()
+            self.assertTrue(content.startswith(b"%PDF-"))
+            self.assertEqual(hashlib.sha256(content).hexdigest(), digest)
+        self.assertEqual({p.name for p in (ROOT / "assets/documents").iterdir()}, set(approved))
         for tag, attrs in Document(text).elements:
             if tag == "a":
-                self.assertNotIn("download", attrs)
-                self.assertNotIn(Path(urlparse(attrs["href"]).path).suffix.lower(), (".pdf", ".docx", ".doc"))
+                self.assertNotIn(Path(urlparse(attrs["href"]).path).suffix.lower(), (".docx", ".doc"))
     def test_approved_homepage_portrait(self):
         text = (ROOT / "index.html").read_text()
         images = [attrs for tag, attrs in Document(text).elements if tag == "img" and attrs.get("src") == "assets/gabriel-cirker-headshot.png"]

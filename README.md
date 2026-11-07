@@ -21,7 +21,8 @@ A personal, responsive portfolio for school projects, research, and passion proj
 
 - `docs/index.html`: homepage and selected projects
 - `docs/about.html`: background and project scope
-- `docs/resume.html`: Resume & CV tab with public-download availability
+- `docs/resume.html`: Resume & CV tab with PDF view and download links
+- `docs/assets/documents/`: reviewed public resume and CV PDFs
 - `docs/side-projects.html`: side-project index with the Spotify project blurb
 - `docs/projects/spotify-title-lab/index.html`: self-contained public Spotify report
 - `docs/desktop-widgets/index.html`: self-contained creative widget showcase with local JavaScript interactions
@@ -50,7 +51,7 @@ The homepage links to public project repositories and the approved LinkedIn prof
 
 ## Updating content
 
-Edit the HTML and CSS directly. Keep project claims aligned with their linked reports and label simulation limitations. Before publishing, run tests, check desktop and narrow-screen layouts, verify external links, and inspect the author/committer metadata. The Resume & CV tab currently shows a coming-soon status without document links. Add résumé/CV downloads only after the documents have been reviewed and approved for public release.
+Edit the HTML and CSS directly. Keep project claims aligned with their linked reports and label simulation limitations. Before publishing, run tests, check desktop and narrow-screen layouts, verify external links, and inspect the author/committer metadata. The Resume & CV tab links to the reviewed and approved public PDFs. Future document replacements also require review and approval for public release; keep editable drafts and private comments out of the repository.
 
 ## Adding a school or passion project
 
