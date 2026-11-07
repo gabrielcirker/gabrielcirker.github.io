@@ -11,3 +11,7 @@ The contact address and current affiliation follow the already-public 2026 rowin
 ## Portrait
 
 - `gabriel-cirker-headshot.png`: AI-generated portrait supplied and approved by Gabriel Cirker for this homepage on 2026-11-07. Published unchanged from the approved image.
+
+## Spotify Title Lab
+
+- `spotify-word-weighting.png`: original aggregate analysis figure from Gabriel Cirker’s Spotify listening history, approved for public release on 2026-11-07. The report at `projects/spotify-title-lab/` embeds all six original analysis charts. The public page does not include the original export, account fields, exact listening timestamps, or individual listening records.

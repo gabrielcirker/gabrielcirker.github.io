@@ -1,1 +1,37 @@
-[{"objectID":"index.html","href":"index.html","title":"Gabriel Cirker","section":"Selected work","text":"School projects, research, and passion projects. Rowing energy transfer, bridge geometry comparison, and MATH 463 immune dynamics."},{"objectID":"about.html","href":"about.html","title":"About Gabriel Cirker","section":"","text":"Computational mechanics and biological dynamics. Reports, code, numerical checks, and research history."},{"objectID":"resume.html","href":"resume.html","title":"Resume & CV | Gabriel Cirker","section":"","text":"Resume and curriculum vitae. Public downloads coming soon."}]
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gabriel Cirker",
+    "section": "Selected work",
+    "text": "School projects, research, and passion projects. Rowing energy transfer, bridge geometry comparison, and MATH 463 immune dynamics."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Gabriel Cirker",
+    "section": "",
+    "text": "Computational mechanics and biological dynamics. Reports, code, numerical checks, and research history."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume & CV | Gabriel Cirker",
+    "section": "",
+    "text": "Resume and curriculum vitae. Public downloads coming soon."
+  },
+  {
+    "objectID": "side-projects.html",
+    "href": "side-projects.html",
+    "title": "Side Projects | Gabriel Cirker",
+    "section": "Personal experiments",
+    "text": "Spotify Title Lab. Music, song-title language, repetition, and a mental jungle gym with personal listening data."
+  },
+  {
+    "objectID": "projects/spotify-title-lab/",
+    "href": "projects/spotify-title-lab/",
+    "title": "Spotify Title Lab",
+    "section": "A year of listening, a corpus of titles",
+    "text": "A reproducible R research lab with six charts and a searchable 279-word lexicon. Personal Spotify data, word weighting, annotation sensitivity, rarefaction, diversity, and monthly change."
+  }
+]

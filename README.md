@@ -2,7 +2,7 @@
 
 **[Visit the homepage](https://gabrielcirker.github.io/)**
 
-A personal, responsive portfolio for school projects, research, and passion projects. The first selected work connects the public rowing, bridge, and MATH 463 projects. It is built with HTML and CSS, with no JavaScript, third-party fonts, tracking, package dependencies, or build step.
+A personal, responsive portfolio for school projects, research, and passion projects. The first selected work connects the public rowing, bridge, and MATH 463 projects. The portfolio pages use HTML and CSS with no third-party fonts, tracking, package dependencies, or build step. The Spotify report is a self-contained Quarto HTML document with embedded JavaScript for local search, sorting, and report navigation; it loads no external assets.
 
 ## Public projects
 
@@ -10,11 +10,18 @@ A personal, responsive portfolio for school projects, research, and passion proj
 - [Bridge geometry comparison](https://gabrielcirker.github.io/bridge-research/) · [Repository](https://github.com/gabrielcirker/bridge-research)
 - [MATH 463 immune dynamics](https://gabrielcirker.github.io/math-463-miniproject/) · [Repository](https://github.com/gabrielcirker/math-463-miniproject)
 
+## Side projects
+
+- [Spotify Title Lab](https://gabrielcirker.github.io/projects/spotify-title-lab/): a public aggregate report with six charts and an interactive 279-word lexicon. The original export and individual listening records are not included.
+- [Side Projects](https://gabrielcirker.github.io/side-projects.html): the portfolio entry point for personal experiments.
+
 ## Structure
 
 - `docs/index.html`: homepage and selected projects
 - `docs/about.html`: background and project scope
 - `docs/resume.html`: Resume & CV tab with public-download availability
+- `docs/side-projects.html`: side-project index with the Spotify project blurb
+- `docs/projects/spotify-title-lab/index.html`: self-contained public Spotify report
 - `docs/styles.css`: responsive layout, accessibility, and print styles
 - `docs/assets/`: original project figures and favicon; provenance in `SOURCES.md`
 - `docs/404.html`, `robots.txt`, `sitemap.xml`: navigation and indexing support
