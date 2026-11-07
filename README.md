@@ -2,7 +2,7 @@
 
 **[Visit the homepage](https://gabrielcirker.github.io/)**
 
-A small, responsive portfolio connecting the public rowing, bridge, and MATH 463 research projects. It is built with HTML and CSS, with no JavaScript, third-party fonts, tracking, package dependencies, or build step.
+A personal, responsive portfolio for school projects, research, and passion projects. The first selected work connects the public rowing, bridge, and MATH 463 projects. It is built with HTML and CSS, with no JavaScript, third-party fonts, tracking, package dependencies, or build step.
 
 ## Public projects
 
@@ -40,3 +40,7 @@ The homepage links only to public project repositories and uses the U-M contact 
 ## Updating content
 
 Edit the HTML and CSS directly. Keep project claims aligned with their linked reports and label simulation limitations. Before publishing, run tests, check desktop and narrow-screen layouts, verify external links, and inspect the author/committer metadata. Add résumé/CV links only after the documents have been reviewed and approved for public release.
+
+## Adding a school or passion project
+
+Add another project article to `docs/index.html` using the existing structure: a clear category, project title, short summary, methods, an authentic image with descriptive alt text, and working public links. Credit collaborators and identify prototype limitations where relevant. Add only finished public materials, not placeholders or private repository links. Update `docs/about.html` and this README if the collection changes. The layout automatically stacks project content on narrow screens.
