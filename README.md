@@ -61,3 +61,5 @@ Add a research summary to `docs/research.html` and a concise visual card to `doc
 ## Page navigation and design
 
 Primary navigation links to distinct pages or approved external profiles. Research summaries live on a dedicated Research page; long report contents and widget tools are separately labeled inside their pages. Keep headings concise, allow whitespace between sections, and preserve the versioned stylesheet URL when updating layout. The Spotify report’s research prose, six embedded figures, lexicon data and scripts are unchanged by the presentation redesign. Original PDFs, the approved portrait, and the standalone widget illustration retain their verified bytes.
+
+The core portfolio uses a persistent outline on the left on wide screens, with the same hierarchy in a native, keyboard-accessible Explore disclosure on smaller screens. All entries open pages or approved external profiles; none are section-jump tabs. Active pages are marked with `aria-current`. The Spotify report and widget walkthrough keep their project-specific navigation and separately labeled in-page tools.

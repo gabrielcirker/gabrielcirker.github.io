@@ -60,7 +60,7 @@ class WidgetTests(unittest.TestCase):
             self.assertEqual(len(images), 1)
             self.assertEqual((images[0]['width'], images[0]['height']), ('800', '680'))
             self.assertIn('width:100%', images[0]['style'])
-            self.assertIn('styles.css?v=portfolio-3', text)
+            self.assertIn('styles.css?v=outline-4', text)
             self.assertNotIn('class="feature-sleeve"', text)
 
     def test_widget_tablet_navigation_visible(self):

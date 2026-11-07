@@ -72,7 +72,7 @@ class PortfolioTests(unittest.TestCase):
                             self.assertEqual(attrs["href"], "https://www.linkedin.com/in/gabrielcirker001/")
     def test_approved_linkedin_profile(self):
         profile = "https://www.linkedin.com/in/gabrielcirker001/"
-        for name, count in (("index.html", 2), ("about.html", 2), ("resume.html", 1)):
+        for name, count in (("index.html", 3), ("about.html", 3), ("resume.html", 2)):
             with self.subTest(page=name):
                 text = (ROOT / name).read_text()
                 links = [attrs for tag, attrs in Document(text).elements if tag == "a" and attrs.get("href") == profile]
@@ -104,7 +104,7 @@ class PortfolioTests(unittest.TestCase):
         self.assertTrue((ROOT / ".nojekyll").exists())
     def test_resume_navigation_and_publication_status(self):
         for name in ("index.html", "about.html", "resume.html"):
-            doc = Document(re.search(r'<nav aria-label="Main navigation">.*?</nav>', (ROOT / name).read_text(), re.S).group())
+            doc = Document(re.search(r'<nav[^>]*aria-label="Main navigation"[^>]*>.*?</nav>', (ROOT / name).read_text(), re.S).group())
             links = [attrs for tag, attrs in doc.elements if tag == "a" and attrs.get("href") == "resume.html"]
             self.assertEqual(len(links), 1, name)
             self.assertEqual(links[0].get("aria-current"), "page" if name == "resume.html" else None)
@@ -157,13 +157,30 @@ class PortfolioTests(unittest.TestCase):
         self.assertEqual(sum(tag == 'h2' for tag, _ in Document(text).elements), 4)
         for name in ('index.html','research.html','about.html','resume.html','side-projects.html'):
             text = (ROOT / name).read_text()
-            self.assertIn('styles.css?v=portfolio-3', text)
+            self.assertIn('styles.css?v=outline-4', text)
 
     def test_about_preserves_affiliations_without_decorative_dates(self):
         text = (ROOT / "about.html").read_text()
         self.assertIn("The original mechanics manuscripts list St. John’s University.", text)
         self.assertIn("The revisions separately identify the updated University of Michigan affiliation.", text)
         self.assertNotRegex(text, r"\b(?:19|20)\d{2}\b")
+    def test_outline_navigation_and_mobile_disclosure(self):
+        for path in PAGES:
+            text = path.read_text()
+            self.assertIn('<body class="portfolio-shell">', text)
+            self.assertIn('class="site-sidebar"', text)
+            self.assertIn('<details class="mobile-outline">', text)
+            self.assertNotIn('<details class="mobile-outline" open', text)
+            for label in ('Main navigation', 'Mobile navigation'):
+                part = re.search(r'<nav[^>]*aria-label="' + label + r'"[^>]*>(.*?)</nav>', text, re.S).group(1)
+                links = [a for t, a in Document(part).elements if t == 'a']
+                self.assertEqual(len(links), 7)
+                self.assertTrue(all(not urlparse(a['href']).fragment for a in links))
+            self.assertNotIn('class="site-header', text)
+        css = (ROOT / 'styles.css').read_text()
+        self.assertIn('.mobile-outline:not([open])>.outline-nav{display:none}', css)
+        self.assertIn('@media(max-width:1050px)', css)
+
     def test_responsive_and_keyboard_styles(self):
         css = (ROOT / "styles.css").read_text()
         for term in ("max-width:700px", ":focus-visible", ".skip-link:focus", "prefers-reduced-motion", "@media print"):

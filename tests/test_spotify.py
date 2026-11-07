@@ -22,7 +22,7 @@ class TextOnly(HTMLParser):
 class SpotifyTests(unittest.TestCase):
     def test_navigation_and_project_entry(self):
         for name in ('index.html','about.html','resume.html','side-projects.html'):
-            links=[a for t,a in Document(re.search(r'<nav aria-label="Main navigation">.*?</nav>', (ROOT/name).read_text(), re.S).group()).elements if t=='a' and a.get('href')=='side-projects.html']
+            links=[a for t,a in Document(re.search(r'<nav[^>]*aria-label="Main navigation"[^>]*>.*?</nav>', (ROOT/name).read_text(), re.S).group()).elements if t=='a' and a.get('href')=='side-projects.html']
             self.assertEqual(len(links),1,name)
             self.assertEqual(links[0].get('aria-current'),'page' if name=='side-projects.html' else None)
         text=(ROOT/'side-projects.html').read_text()
