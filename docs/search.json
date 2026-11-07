@@ -39,6 +39,11 @@
     "href": "desktop-widgets/",
     "title": "Desktop in Stereo",
     "section": "Music-led desktop experiments",
-    "text": "Gabriel Cirker’s passion project: Spotify-connected widgets, artwork-driven themes, local APIs, Python, JavaScript, Lua, and Rainmeter. Interactive fictional scenes and code experiments."
+    "text": "Gabriel Cirker\u2019s passion project: Spotify-connected widgets, artwork-driven themes, local APIs, Python, JavaScript, Lua, and Rainmeter. Interactive fictional scenes and code experiments."
+  },
+  {
+    "title": "Research",
+    "href": "research.html",
+    "text": "Computational studies in rowing mechanics, beam geometry, and immune dynamics. Reports, code, methods, and limitations."
   }
 ]

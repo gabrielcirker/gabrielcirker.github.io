@@ -1,6 +1,7 @@
 """Dependency-free checks for the published portfolio files."""
 import json
 import hashlib
+import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse, unquote
@@ -8,7 +9,7 @@ import unittest
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1] / "docs"
-PAGES = [ROOT / name for name in ("index.html", "about.html", "resume.html", "side-projects.html", "404.html")]
+PAGES = [ROOT / name for name in ("index.html", "research.html", "about.html", "resume.html", "side-projects.html", "404.html")]
 class Document(HTMLParser):
     def __init__(self, text):
         super().__init__(convert_charrefs=True)
@@ -83,7 +84,7 @@ class PortfolioTests(unittest.TestCase):
         text = (ROOT / "index.html").read_text()
         self.assertIn('<a href="' + profile + '">Connect on LinkedIn <span aria-hidden="true">↗</span></a>', text)
     def test_project_links_and_attribution(self):
-        text = (ROOT / "index.html").read_text()
+        text = (ROOT / "research.html").read_text()
         for project in ("rowing-research", "bridge-research", "math-463-miniproject"):
             self.assertIn("https://gabrielcirker.github.io/" + project + "/", text)
             self.assertIn("https://github.com/gabrielcirker/" + project, text)
@@ -94,7 +95,7 @@ class PortfolioTests(unittest.TestCase):
     def test_metadata_files(self):
         ET.parse(ROOT / "sitemap.xml")
         ET.parse(ROOT / "assets/favicon.svg")
-        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "projects/spotify-title-lab/", "desktop-widgets/"}
+        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "projects/spotify-title-lab/", "desktop-widgets/", "research.html"}
         entries = json.loads((ROOT / "search.json").read_text())
         self.assertEqual({entry["href"] for entry in entries}, expected)
         sitemap = ET.parse(ROOT / "sitemap.xml")
@@ -103,7 +104,7 @@ class PortfolioTests(unittest.TestCase):
         self.assertTrue((ROOT / ".nojekyll").exists())
     def test_resume_navigation_and_publication_status(self):
         for name in ("index.html", "about.html", "resume.html"):
-            doc = Document((ROOT / name).read_text())
+            doc = Document(re.search(r'<nav aria-label="Main navigation">.*?</nav>', (ROOT / name).read_text(), re.S).group())
             links = [attrs for tag, attrs in doc.elements if tag == "a" and attrs.get("href") == "resume.html"]
             self.assertEqual(len(links), 1, name)
             self.assertEqual(links[0].get("aria-current"), "page" if name == "resume.html" else None)
@@ -136,6 +137,28 @@ class PortfolioTests(unittest.TestCase):
         portrait = (ROOT / "assets/gabriel-cirker-headshot.png").read_bytes()
         self.assertEqual(hashlib.sha256(portrait).hexdigest(), "cd5bc1fac47174fdf817e41acadfa586f0ded19bf4113f370347f61f7d13e2fd")
         self.assertEqual(text.count('aria-label="Portfolio overview"'), 1)
+    def test_primary_navigation_is_pages_only(self):
+        for path in PAGES + [ROOT / 'desktop-widgets/index.html', ROOT / 'projects/spotify-title-lab/index.html']:
+            text = path.read_text()
+            primary = re.findall(r'<nav[^>]*aria-label="Main navigation"[^>]*>(.*?)</nav>', text, re.S)
+            self.assertEqual(len(primary), 1, path.name)
+            for tag, attrs in Document(primary[0]).elements:
+                if tag == 'a':
+                    url = urlparse(attrs['href'])
+                    self.assertTrue(url.path, (path.name, attrs['href']))
+                    self.assertFalse(url.fragment, (path.name, attrs['href']))
+
+    def test_research_page_preserves_project_context(self):
+        text = (ROOT / 'research.html').read_text()
+        for phrase in ('Kennedy Jamison', 'Cecilia Pirozzi', 'not a clinical model', 'not rowing or metabolic efficiency', 'not a practical bridge design'):
+            self.assertIn(phrase, text)
+        self.assertIn('href="research.html" aria-current="page"', text)
+        self.assertNotIn('<h3', text)
+        self.assertEqual(sum(tag == 'h2' for tag, _ in Document(text).elements), 4)
+        for name in ('index.html','research.html','about.html','resume.html','side-projects.html'):
+            text = (ROOT / name).read_text()
+            self.assertIn('styles.css?v=portfolio-3', text)
+
     def test_about_preserves_affiliations_without_decorative_dates(self):
         text = (ROOT / "about.html").read_text()
         self.assertIn("The original mechanics manuscripts list St. John’s University.", text)

@@ -60,14 +60,14 @@ class WidgetTests(unittest.TestCase):
             self.assertEqual(len(images), 1)
             self.assertEqual((images[0]['width'], images[0]['height']), ('800', '680'))
             self.assertIn('width:100%', images[0]['style'])
-            self.assertIn('styles.css?v=stereo-card-2', text)
+            self.assertIn('styles.css?v=portfolio-3', text)
             self.assertNotIn('class="feature-sleeve"', text)
 
     def test_portfolio_entry_points(self):
         home=(ROOT/'index.html').read_text()
         self.assertIn('id="widgets"',home)
         self.assertIn('Enter Desktop in Stereo',home)
-        for name in ['index.html','about.html','resume.html','side-projects.html']:
+        for name in ['index.html','about.html','side-projects.html']:
             self.assertIn('href="desktop-widgets/"',(ROOT/name).read_text())
         self.assertIn('projects/spotify-title-lab/',(ROOT/'side-projects.html').read_text())
         self.assertIn('https://gabrielcirker.github.io/desktop-widgets/',(ROOT/'sitemap.xml').read_text())

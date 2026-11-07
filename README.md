@@ -19,7 +19,8 @@ A personal, responsive portfolio for school projects, research, and passion proj
 
 ## Structure
 
-- `docs/index.html`: homepage and selected projects
+- `docs/index.html`: concise homepage with selected research and creative projects
+- `docs/research.html`: full research summaries, source links, collaborator credits, and model limitations
 - `docs/about.html`: background and project scope
 - `docs/resume.html`: Resume & CV tab with PDF view and download links
 - `docs/assets/documents/`: reviewed public resume and CV PDFs
@@ -55,4 +56,8 @@ Edit the HTML and CSS directly. Keep project claims aligned with their linked re
 
 ## Adding a school or passion project
 
-Add another project article to `docs/index.html` using the existing structure: a clear category, project title, short summary, methods, an authentic image with descriptive alt text, and working public links. Credit collaborators and identify prototype limitations where relevant. Add only finished public materials, not placeholders or private repository links. Update `docs/about.html` and this README if the collection changes. The layout automatically stacks project content on narrow screens.
+Add a research summary to `docs/research.html` and a concise visual card to `docs/index.html`, using the existing structure: a clear category, project title, short summary, methods, an authentic image with descriptive alt text, and working public links. Credit collaborators and identify prototype limitations where relevant. Add only finished public materials, not placeholders or private repository links. Update `docs/about.html` and this README if the collection changes. The layout automatically stacks project content on narrow screens.
+
+## Page navigation and design
+
+Primary navigation links to distinct pages or approved external profiles. Research summaries live on a dedicated Research page; long report contents and widget tools are separately labeled inside their pages. Keep headings concise, allow whitespace between sections, and preserve the versioned stylesheet URL when updating layout. The Spotify report’s research prose, six embedded figures, lexicon data and scripts are unchanged by the presentation redesign. Original PDFs, the approved portrait, and the standalone widget illustration retain their verified bytes.
