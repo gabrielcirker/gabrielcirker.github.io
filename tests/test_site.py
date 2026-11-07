@@ -1,5 +1,6 @@
 """Dependency-free checks for the published portfolio files."""
 import json
+import hashlib
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse, unquote
@@ -97,6 +98,16 @@ class PortfolioTests(unittest.TestCase):
             if tag == "a":
                 self.assertNotIn("download", attrs)
                 self.assertNotIn(Path(urlparse(attrs["href"]).path).suffix.lower(), (".pdf", ".docx", ".doc"))
+    def test_approved_homepage_portrait(self):
+        text = (ROOT / "index.html").read_text()
+        images = [attrs for tag, attrs in Document(text).elements if tag == "img" and attrs.get("src") == "assets/gabriel-cirker-headshot.png"]
+        self.assertEqual(len(images), 1)
+        self.assertEqual((images[0]["width"], images[0]["height"]), ("1024", "1536"))
+        self.assertIn("Gabriel Cirker", images[0]["alt"])
+        self.assertEqual(images[0].get("fetchpriority"), "high")
+        portrait = (ROOT / "assets/gabriel-cirker-headshot.png").read_bytes()
+        self.assertEqual(hashlib.sha256(portrait).hexdigest(), "cd5bc1fac47174fdf817e41acadfa586f0ded19bf4113f370347f61f7d13e2fd")
+        self.assertEqual(text.count('aria-label="Portfolio overview"'), 1)
     def test_responsive_and_keyboard_styles(self):
         css = (ROOT / "styles.css").read_text()
         for term in ("max-width:700px", ":focus-visible", ".skip-link:focus", "prefers-reduced-motion", "@media print"):

@@ -163,22 +163,34 @@ p+p {
 .button span {
   font-size:20px;
 }
+.hero-portrait {
+  width:min(100%,370px);
+  justify-self:end;
+  padding:8px;
+  border:1px solid var(--line);
+  background:var(--white);
+}
+.hero-portrait img {
+  display:block;
+  width:100%;
+  height:auto;
+}
 .field-notes {
-  padding-top:8px;
+  padding-top:28px;
 }
 .field-notes>p:first-child {
   color:var(--muted);
 }
 .field-notes ol {
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:28px;
   list-style:none;
   padding:0;
-  margin:26px 0;
+  margin:22px 0 18px;
 }
 .field-notes li {
-  border-top:1px solid var(--line);
-}
-.field-notes li:last-child {
-  border-bottom:1px solid var(--line);
+  border-block:1px solid var(--line);
 }
 .field-notes li a {
   display:block;
@@ -206,6 +218,9 @@ p+p {
   right:0;
   top:50%;
   font-size:22px;
+}
+.field-notes strong br,.field-note br {
+  display:none;
 }
 .field-note {
   font-size:12px;
@@ -552,9 +567,18 @@ p+p {
     font-size:21px;
     max-width:400px;
   }
+  .hero-portrait {
+    justify-self:start;
+    width:min(100%,340px);
+  }
   .field-notes ol {
+    grid-template-columns:1fr;
+    gap:0;
     margin-top:20px;
     margin-bottom:17px;
+  }
+  .field-notes li+li {
+    border-top:0;
   }
   .field-notes li a {
     padding-block:19px;
@@ -688,6 +712,10 @@ p+p {
   .hero {
     padding:32px 0;
     display:block;
+  }
+  .hero-portrait {
+    width:140px;
+    margin-top:24px;
   }
   .hero h1 {
     font-size:54pt;
