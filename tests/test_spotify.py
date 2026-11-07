@@ -29,6 +29,15 @@ class SpotifyTests(unittest.TestCase):
         self.assertIn('projects/spotify-title-lab/',text)
         self.assertIn('mental jungle gym',text)
         self.assertIn('my own Spotify data',text)
+    def test_publication_date_removed(self):
+        text = (ROOT / "projects/spotify-title-lab/index.html").read_text()
+        header = text[text.index('<header id="title-block-header"'):text.index('</header>')]
+        self.assertNotIn("Published", header)
+        self.assertNotIn('class="date"', header)
+        self.assertNotIn('name="dcterms.date"', text)
+        self.assertIn("The archive window is 5 November 2025 through 5 November 2026.", text)
+        self.assertIn("December 2025 through October 2026", text)
+
     def test_report_structure_and_return_links(self):
         text=REPORT.read_text(); doc=Document(text)
         ids=[a['id'] for t,a in doc.elements if 'id' in a]
