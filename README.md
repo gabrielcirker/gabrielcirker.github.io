@@ -36,7 +36,7 @@ Open http://127.0.0.1:8769. In another terminal:
 python3 -m unittest discover -s tests -v
 ```
 
-The homepage links only to public project repositories and uses the U-M contact address. Keep personal contact information and unpublished résumé/CV drafts out of the public repository. Historical manuscripts retain the distinctions between original and revision affiliations. The MATH 463 project credits all three authors.
+The homepage links to public project repositories and the approved LinkedIn profile, and uses the U-M contact address. Keep personal contact information and unpublished résumé/CV drafts out of the public repository. Historical manuscripts retain the distinctions between original and revision affiliations. The MATH 463 project credits all three authors.
 
 ## Updating content
 

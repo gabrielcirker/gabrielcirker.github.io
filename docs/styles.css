@@ -409,7 +409,7 @@ p+p {
 .email-link span {
   margin-left:14px;
 }
-.contact-links>a:last-child {
+.contact-links>a:not(.email-link) {
   font-size:13px;
 }
 .site-footer {
@@ -703,7 +703,7 @@ p+p {
   .wrap {
     width:100%;
   }
-  .site-header nav,.skip-link,.field-notes,.button,.site-footer,.contact-links>a:last-child {
+  .site-header nav,.skip-link,.field-notes,.button,.site-footer,.contact-links>a:not(.email-link) {
     display:none;
   }
   .site-header {

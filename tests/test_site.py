@@ -66,7 +66,22 @@ class PortfolioTests(unittest.TestCase):
                         self.assertEqual(url.path, "gcirker@umich.edu")
                     elif url.netloc:
                         self.assertEqual(url.scheme, "https")
-                        self.assertIn(url.netloc, ("github.com", "gabrielcirker.github.io"))
+                        self.assertIn(url.netloc, ("github.com", "gabrielcirker.github.io", "www.linkedin.com"))
+                        if url.netloc == "www.linkedin.com":
+                            self.assertEqual(attrs["href"], "https://www.linkedin.com/in/gabrielcirker001/")
+    def test_approved_linkedin_profile(self):
+        profile = "https://www.linkedin.com/in/gabrielcirker001/"
+        for name, count in (("index.html", 2), ("about.html", 2), ("resume.html", 1)):
+            with self.subTest(page=name):
+                text = (ROOT / name).read_text()
+                links = [attrs for tag, attrs in Document(text).elements if tag == "a" and attrs.get("href") == profile]
+                self.assertEqual(len(links), count)
+                self.assertIn('<a href="' + profile + '">LinkedIn <span aria-hidden="true">↗</span></a></nav>', text)
+                for attrs in links:
+                    self.assertNotIn("target", attrs)
+                    self.assertNotIn("tabindex", attrs)
+        text = (ROOT / "index.html").read_text()
+        self.assertIn('<a href="' + profile + '">Connect on LinkedIn <span aria-hidden="true">↗</span></a>', text)
     def test_project_links_and_attribution(self):
         text = (ROOT / "index.html").read_text()
         for project in ("rowing-research", "bridge-research", "math-463-miniproject"):
