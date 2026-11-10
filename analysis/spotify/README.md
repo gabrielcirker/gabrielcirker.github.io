@@ -2,7 +2,7 @@
 
 A reproducible expansion of Spotify Title Lab: community comparisons, song lifecycles, playlist overlap, recording release history, chronological prediction, and an acoustic-data coverage experiment.
 
-[Explore the public lab](https://gabrielcirker.github.io/spotify-title-lab/) · [Read the original title study](https://gabrielcirker.github.io/spotify-title-lab/title-analysis.html)
+[Explore the public lab](https://gabrielcirker.github.io/spotify-title-lab/)
 
 ## Inputs and publication boundaries
 

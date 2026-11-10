@@ -20,6 +20,21 @@ class TextOnly(HTMLParser):
         if not self.skip: self.parts.append(text)
 
 class SpotifyTests(unittest.TestCase):
+    def test_expanded_lab_preserves_requested_theme_and_links(self):
+        html=(ROOT/'spotify-title-lab/index.html').read_text()
+        css=(ROOT/'spotify-title-lab/lab.css').read_text()
+        self.assertNotIn('href="title-analysis.html',html)
+        self.assertIn('mental jungle gym',html)
+        self.assertIn('#f5f3ed',css.lower())
+        self.assertIn('#172d39',css.lower())
+        self.assertNotIn('emotional lexicon',html)
+        doc=Document(html); ids=[a['id'] for _,a in doc.elements if 'id' in a]
+        self.assertEqual(len(ids),len(set(ids)))
+        self.assertEqual(sum(t=='h1' for t,_ in doc.elements),1)
+        for name in ('lifecycle','network','community','releases','prediction','acoustic'):
+            self.assertIn(name,ids)
+        self.assertIn('@media',css)
+
     def test_navigation_and_project_entry(self):
         for name in ('index.html','about.html','resume.html','side-projects.html'):
             links=[a for t,a in Document(re.search(r'<nav[^>]*aria-label="Main navigation"[^>]*>.*?</nav>', (ROOT/name).read_text(), re.S).group()).elements if t=='a' and a.get('href')=='side-projects.html']
