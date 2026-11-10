@@ -23,7 +23,12 @@ const errors=[];const pending=[];
 const context={console:{error:e=>errors.push(String(e)),log:()=>{}},location:{hash:'',search:'',replace:()=>{}},navigator:{clipboard:{writeText:async()=>{}}},Option:function(text,value){this.text=text;this.value=String(value);},document:{querySelector:s=>{if(!registry.has(s))throw Error('Unknown selector '+s);return registry.get(s)},querySelectorAll:s=>{return [...registry.values()].flatMap(e=>e.querySelectorAll(s));}},fetch:path=>{const p=Promise.resolve({ok:true,status:200,json:()=>JSON.parse(fs.readFileSync(root+path,'utf8'))});pending.push(p);return p;},Intl,Map,Set,Math,Number,String,Array,Object,JSON};
 vm.createContext(context);vm.runInContext(fs.readFileSync(root+'lab.js','utf8'),context,{timeout:10000});
 (async()=>{await Promise.all(pending);await new Promise(r=>setImmediate(r));assert.deepEqual(errors,[],'Renderer errors');
-const get=s=>registry.get(s);assert.match(get('#summary').innerHTML,/44,091/);assert.match(get('#track-count').textContent,/11,769/);assert.match(get('#track-detail').innerHTML,/<svg/);assert.match(get('#prediction-table').innerHTML,/7.5%/);assert.match(get('#network-chart').innerHTML,/<svg/);assert.doesNotMatch(get('#network-detail').innerHTML,/undefined/);
+const get=s=>registry.get(s);
+const referenceSources=JSON.parse(fs.readFileSync(root+'data/external.json','utf8')).sources;
+const renderedSources=get('.sources').innerHTML;
+for(const source of referenceSources){assert.ok(renderedSources.includes(source.name),'Source name retained');assert.ok(renderedSources.includes(source.url.replaceAll('&','&amp;')),'Source link retained');assert.ok(renderedSources.includes(source.license),'Source license retained');if(source.retrievedAt)assert.ok(!renderedSources.includes(source.retrievedAt),'Retrieval timestamp omitted');}
+assert.doesNotMatch(renderedSources,/Retrieved|Accessed/i);
+assert.match(get('#summary').innerHTML,/44,091/);assert.match(get('#track-count').textContent,/11,769/);assert.match(get('#track-detail').innerHTML,/<svg/);assert.match(get('#prediction-table').innerHTML,/7.5%/);assert.match(get('#network-chart').innerHTML,/<svg/);assert.doesNotMatch(get('#network-detail').innerHTML,/undefined/);
 get('#track-search').value='zzzzzz-nothing-match';get('#track-search').listeners.input();assert.match(get('#track-count').textContent,/0 matching/);assert.match(get('#track-list').innerHTML,/No tracks match/);
 get('#track-search').value='';get('#life-filter').value='steadyPattern';get('#life-filter').listeners.change();assert.match(get('#track-count').textContent,/494 matching/);
 get('#time-scale').value='weekly';get('#time-scale').listeners.change();assert.match(get('#pulse').innerHTML,/by week/);
