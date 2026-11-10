@@ -48,10 +48,15 @@ body{background:var(--paper);color:var(--ink)}.mast{background:#0b1210}.brand-ic
 /* Keep page navigation visible at intermediate tablet widths. */
 .mast .nav a{display:block!important}
 </style>
-</head>
+
+<style id="standalone-project-sharing">
+.project-share{display:flex;flex-direction:column;align-items:flex-end;gap:6px;min-width:0}.project-share button{font:inherit;font-size:13px;border:1px solid currentColor;border-radius:4px;background:transparent;color:inherit;padding:10px 15px;min-height:44px;cursor:pointer}.project-share button:hover{background:#172d3910}.project-share button:focus-visible{outline:3px solid #22665e;outline-offset:4px}.project-share-status{font-size:12px;line-height:1.4;max-width:38ch;overflow-wrap:anywhere}.project-share-status:empty{display:none}.project-share-fallback{font:12px ui-monospace,monospace;max-width:100%;width:330px;padding:8px}.standalone-footer{max-width:1160px;width:calc(100% - 80px);margin:40px auto 0;padding:25px 0;border-top:1px solid #d7dcd3;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;font-size:13px;line-height:1.7}.standalone-footer a{color:inherit;text-underline-offset:4px}.standalone-footer .project-address{overflow-wrap:anywhere}.portfolio-return .project-brand{font-size:18px;letter-spacing:-.02em}.portfolio-return>.project-share{gap:6px}
+@media(max-width:600px){.standalone-footer{width:calc(100% - 40px);margin-top:30px}.portfolio-return{gap:14px}.portfolio-return>.project-share{align-items:flex-start;width:100%}.project-share button{font-size:12px}}
+@media print{.project-share{display:none}.standalone-footer{margin-top:20px}}
+</style><style>.mast .project-share{font-family:var(--mono)}.mast .project-share button{font-size:11px}.mast .project-share-status{font-size:10px}.mast .nav{margin-left:auto}.mast{gap:24px;flex-wrap:wrap;height:auto;min-height:96px;padding-block:20px}@media(max-width:900px){.mast .nav{order:0;width:auto;margin-left:0}.mast .project-share{order:3;align-items:flex-start}.mast .motion-toggle{margin-left:auto}}@media(max-width:600px){.mast .nav{display:none!important}.mast .brand{flex:1;min-width:190px}.mast .project-share{width:100%}}</style></head>
 <body>
 <a href="#main" class="skip">Skip to content</a><div class="progress-rail" aria-hidden="true"></div>
-<header class="mast"><a class="brand" href="../" aria-label="Gabriel Cirker, portfolio home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>GABRIEL CIRKER</a><nav class="nav" aria-label="Main navigation"><a href="../research.html">Research</a><a href="../side-projects.html">Side projects</a><a href="../resume.html">Resume &amp; CV</a><a href="../projects/spotify-title-lab/">Spotify Title Lab</a></nav><button class="motion-toggle" id="motionToggle" aria-pressed="false">Motion: on</button></header>
+<header class="mast"><a class="brand" href="./" aria-label="Desktop in Stereo, project home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>DESKTOP IN STEREO</a><nav class="nav" aria-label="Main navigation"><a href="./" aria-current="page">Project home</a></nav><div class="project-share"><button type="button" data-share-project="https://gabrielcirker.github.io/desktop-widgets/" aria-describedby="project-share-status">Copy project link</button><span class="project-share-status" id="project-share-status" role="status" aria-live="polite"></span><input class="project-share-fallback" id="project-share-fallback" type="text" readonly hidden aria-label="Project link to copy" value="https://gabrielcirker.github.io/desktop-widgets/"></div><button class="motion-toggle" id="motionToggle" aria-pressed="false">Motion: on</button></header>
 <div class="status-top mono"><span>Personal project · Spotify-connected Windows widgets</span><span>Interactive music edition / work in progress</span></div>
 <noscript><p class="no-script">This walkthrough uses JavaScript for its interactive scenes and code experiments. The project story and limitations remain readable without it. No live music account is connected.</p></noscript><main id="main"><section class="hero" id="top"><div class="wrap"><div class="hero-grid"><div class="hero-copy"><div class="eyebrow">A music-led experiment by Gabriel Cirker</div><h1>The desktop<br>has a<br><span class="serif">soundtrack.</span></h1><p class="hero-intro">Music at the center. Color across the screen. A personal exploration of what happens when Spotify becomes the starting point for the whole desktop.</p><a href="#music" class="btn">Follow the music <span aria-hidden="true">↗</span></a><div class="hero-footnote mono">Track identity → artwork → atmosphere</div></div><div class="hero-visual music-hero" aria-label="Original vinyl and album-sleeve illustration, using fictional music"><div class="record-orbit" aria-hidden="true"></div><div class="record-orbit orbit-two" aria-hidden="true"></div><div class="hero-record" aria-hidden="true"><div class="record-label"><span>DESKTOP<br>IN STEREO</span><i></i><small>SIDE A / ALWAYS EXPLORING</small></div></div><div class="hero-sleeve" aria-hidden="true"><div class="sleeve-type">STUDIO<br><em>SESSION</em></div><div class="sleeve-art"><i></i><i></i><i></i></div><div class="sleeve-bottom"><span>G.C. / EXPERIMENT NO. 01</span><span>33⅓</span></div></div><span class="record-sticker mono">Source code<br>with a pulse.</span><div class="hero-now"><span class="status-light" aria-hidden="true"></span><span>IN THE DEMO</span><strong id="heroTrack">Studio Session</strong><span class="hero-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span></div><span class="music-annotation mono">Original procedural artwork / no audio playing</span></div></div><div class="hero-base mono"><span>Spotify × Rainmeter × Python × JavaScript × Lua</span><span class="little-arrow" aria-hidden="true">↓</span><span>One song. A shared visual language.<br>Fictional music. Source-backed ideas.</span></div></div></section>
 <div class="ticker removed-decorative-ticker" aria-hidden="true"><div class="ticker-track"><span>MUSIC <i>↗</i> METADATA <i>✳</i> <em>the whole room changes</em> <i>↗</i> ARTWORK <i>✳</i> ATMOSPHERE <i>↗</i> </span><span>MUSIC <i>↗</i> METADATA <i>✳</i> <em>the whole room changes</em> <i>↗</i> ARTWORK <i>✳</i> ATMOSPHERE <i>↗</i> </span></div></div>
@@ -156,5 +161,26 @@ function showBridge(key){const item=bridgeExamples[key];$('#bridgeState').textCo
 $$('[data-bridge]').forEach(b=>b.addEventListener('click',()=>{showBridge(b.dataset.bridge);announce(bridgeExamples[b.dataset.bridge].state+' bridge example.');}));showBridge('fresh');
 
 </script>
-</body>
+
+<script id="project-share-script">
+(() => {
+  const button = document.querySelector('[data-share-project]');
+  const status = document.getElementById('project-share-status');
+  const fallback = document.getElementById('project-share-fallback');
+  button.addEventListener('click', async () => {
+    const url = button.dataset.shareProject;
+    try {
+      if (!navigator.clipboard || !window.isSecureContext) throw new Error('Copy unavailable');
+      await navigator.clipboard.writeText(url);
+      fallback.hidden = true;
+      status.textContent = 'Project link copied.';
+    } catch (_) {
+      fallback.hidden = false;
+      fallback.focus();
+      fallback.select();
+      status.textContent = 'Select and copy this project link.';
+    }
+  });
+})();
+</script></body>
 </html>

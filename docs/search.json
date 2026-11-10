@@ -28,8 +28,8 @@
     "text": "Spotify Title Lab. Music, song-title language, repetition, and a mental jungle gym with personal listening data."
   },
   {
-    "objectID": "projects/spotify-title-lab/",
-    "href": "projects/spotify-title-lab/",
+    "objectID": "spotify-title-lab/",
+    "href": "spotify-title-lab/",
     "title": "Spotify Title Lab",
     "section": "A year of listening, a corpus of titles",
     "text": "A reproducible R research lab with six charts and a searchable 279-word lexicon. Personal Spotify data, word weighting, annotation sensitivity, rarefaction, diversity, and monthly change."

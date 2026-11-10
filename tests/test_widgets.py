@@ -72,7 +72,7 @@ class WidgetTests(unittest.TestCase):
         self.assertIn('Enter Desktop in Stereo',home)
         for name in ['index.html','about.html','side-projects.html']:
             self.assertIn('href="desktop-widgets/"',(ROOT/name).read_text())
-        self.assertIn('projects/spotify-title-lab/',(ROOT/'side-projects.html').read_text())
+        self.assertIn('spotify-title-lab/',(ROOT/'side-projects.html').read_text())
         self.assertIn('https://gabrielcirker.github.io/desktop-widgets/',(ROOT/'sitemap.xml').read_text())
 
 if __name__=='__main__': unittest.main()

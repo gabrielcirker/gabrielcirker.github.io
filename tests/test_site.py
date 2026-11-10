@@ -95,7 +95,7 @@ class PortfolioTests(unittest.TestCase):
     def test_metadata_files(self):
         ET.parse(ROOT / "sitemap.xml")
         ET.parse(ROOT / "assets/favicon.svg")
-        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "projects/spotify-title-lab/", "desktop-widgets/", "research.html"}
+        expected = {"index.html", "about.html", "resume.html", "side-projects.html", "spotify-title-lab/", "desktop-widgets/", "research.html"}
         entries = json.loads((ROOT / "search.json").read_text())
         self.assertEqual({entry["href"] for entry in entries}, expected)
         sitemap = ET.parse(ROOT / "sitemap.xml")
@@ -138,7 +138,7 @@ class PortfolioTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256(portrait).hexdigest(), "cd5bc1fac47174fdf817e41acadfa586f0ded19bf4113f370347f61f7d13e2fd")
         self.assertEqual(text.count('aria-label="Portfolio overview"'), 1)
     def test_primary_navigation_is_pages_only(self):
-        for path in PAGES + [ROOT / 'desktop-widgets/index.html', ROOT / 'projects/spotify-title-lab/index.html']:
+        for path in PAGES + [ROOT / 'desktop-widgets/index.html', ROOT / 'spotify-title-lab/index.html']:
             text = path.read_text()
             primary = re.findall(r'<nav[^>]*aria-label="Main navigation"[^>]*>(.*?)</nav>', text, re.S)
             self.assertEqual(len(primary), 1, path.name)

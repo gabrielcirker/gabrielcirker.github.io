@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from test_site import Document, ROOT
 
-REPORT = ROOT / 'projects/spotify-title-lab/index.html'
+REPORT = ROOT / 'spotify-title-lab/index.html'
 class TextOnly(HTMLParser):
     def __init__(self, text):
         super().__init__(); self.parts=[]; self.skip=0; self.feed(text)
@@ -26,11 +26,11 @@ class SpotifyTests(unittest.TestCase):
             self.assertEqual(len(links),1,name)
             self.assertEqual(links[0].get('aria-current'),'page' if name=='side-projects.html' else None)
         text=(ROOT/'side-projects.html').read_text()
-        self.assertIn('projects/spotify-title-lab/',text)
+        self.assertIn('spotify-title-lab/',text)
         self.assertIn('mental jungle gym',text)
         self.assertIn('my own Spotify data',text)
     def test_publication_date_removed(self):
-        text = (ROOT / "projects/spotify-title-lab/index.html").read_text()
+        text = (ROOT / "spotify-title-lab/index.html").read_text()
         header = text[text.index('<header id="title-block-header"'):text.index('</header>')]
         self.assertNotIn("Published", header)
         self.assertNotIn('class="date"', header)
@@ -46,7 +46,7 @@ class SpotifyTests(unittest.TestCase):
         self.assertIn('project-story-title',ids)
         self.assertIn('lex-search',ids);self.assertIn('lex-sort',ids);self.assertIn('lex-count',ids)
         self.assertIn('279',text)
-        self.assertIn('https://gabrielcirker.github.io/projects/spotify-title-lab/',text)
+        self.assertIn('https://gabrielcirker.github.io/spotify-title-lab/',text)
         for t,a in doc.elements:
             for attr in ('src','href'):
                 if attr not in a: continue
