@@ -1,0 +1,12 @@
+{
+  "samplingRule": "Every eighth distinct recording in global monthly top-1000 chart order; chosen without consulting personal history.",
+  "sampleSize": 104,
+  "musicbrainzDatesAvailable": 102,
+  "acousticDescriptorsAvailable": 50,
+  "musicbrainzErrors": 2,
+  "acousticErrors": 54,
+  "files": {
+    "artists.json": "8dbee3d416b7df67175ab141da95730e643176c1d2a4bcd05107a8f313944b7a",
+    "enrichment.json": "d7009e590e9480a14fb3f357aeac1c08949cbbdbd22f9eef41ba0672aa379f01"
+  }
+}

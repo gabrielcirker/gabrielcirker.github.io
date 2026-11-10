@@ -1,0 +1,3033 @@
+{
+  "sampleRule": "Every eighth distinct recording in global monthly top-1000 chart order; chosen without consulting personal history.",
+  "sources": [
+    {
+      "name": "ListenBrainz global monthly artists",
+      "url": "https://api.listenbrainz.org/1/stats/sitewide/artists?range=month&count=1000",
+      "retrievedAt": "2026-11-10T17:47:58.089628+00:00",
+      "sha256": "8dbee3d416b7df67175ab141da95730e643176c1d2a4bcd05107a8f313944b7a",
+      "license": "CC0 listening data"
+    },
+    {
+      "name": "ListenBrainz global monthly recordings",
+      "url": "https://api.listenbrainz.org/1/stats/sitewide/recordings?range=month&count=1000",
+      "retrievedAt": "2026-11-10T17:47:59.240741+00:00",
+      "sha256": "01a222c45466963f93310b4cf685300ab64c4d2b810f51179482250106bf5bec",
+      "license": "CC0 listening data"
+    }
+  ],
+  "rows": [
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "SWIM",
+        "recording_mbid": "6f33dc05-cdc0-4a2f-8039-e8fed082eec6",
+        "listen_count": 249861
+      },
+      "musicbrainz": {
+        "id": "6f33dc05-cdc0-4a2f-8039-e8fed082eec6",
+        "title": "SWIM",
+        "first-release-date": "2026-03-20"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:15.687921+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/6f33dc05-cdc0-4a2f-8039-e8fed082eec6?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/6f33dc05-cdc0-4a2f-8039-e8fed082eec6/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Into the Sun",
+        "recording_mbid": "24909119-fb10-416b-b8d4-fd9016f75033",
+        "listen_count": 116805
+      },
+      "musicbrainz": {
+        "id": "24909119-fb10-416b-b8d4-fd9016f75033",
+        "title": "Into the Sun",
+        "first-release-date": "2026-03-20"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:17.661439+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/24909119-fb10-416b-b8d4-fd9016f75033?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/24909119-fb10-416b-b8d4-fd9016f75033/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jin",
+        "track_name": "Don\u2019t Say You Love Me",
+        "recording_mbid": "b9475022-5631-4574-a5bb-24e271a922e0",
+        "listen_count": 62215
+      },
+      "musicbrainz": {
+        "id": "b9475022-5631-4574-a5bb-24e271a922e0",
+        "title": "Don\u2019t Say You Love Me",
+        "first-release-date": "2025-05-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:19.771702+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/b9475022-5631-4574-a5bb-24e271a922e0?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/b9475022-5631-4574-a5bb-24e271a922e0/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jung Kook feat. Latto",
+        "track_name": "Seven",
+        "recording_mbid": "4f89960a-1fc9-48d5-aafb-e164fff0348d",
+        "listen_count": 30871
+      },
+      "musicbrainz": {
+        "id": "4f89960a-1fc9-48d5-aafb-e164fff0348d",
+        "title": "Seven",
+        "first-release-date": "2023-07-14"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:22.780995+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/4f89960a-1fc9-48d5-aafb-e164fff0348d?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/4f89960a-1fc9-48d5-aafb-e164fff0348d/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Blood Sweat & Tears - Live",
+        "recording_mbid": "38f1f272-d7e8-4ae7-93ff-3e574eeef484",
+        "listen_count": 17197
+      },
+      "musicbrainz": {
+        "id": "38f1f272-d7e8-4ae7-93ff-3e574eeef484",
+        "title": "Blood Sweat & Tears - Live",
+        "first-release-date": "2025-07-18"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:24.844428+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/38f1f272-d7e8-4ae7-93ff-3e574eeef484?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/38f1f272-d7e8-4ae7-93ff-3e574eeef484/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "RM",
+        "track_name": "Lonely",
+        "recording_mbid": "62e87c65-723d-430d-9e12-4fc6a39cbc67",
+        "listen_count": 13174
+      },
+      "musicbrainz": {
+        "id": "62e87c65-723d-430d-9e12-4fc6a39cbc67",
+        "title": "Lonely",
+        "first-release-date": "2022-12-02"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:27.877470+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/62e87c65-723d-430d-9e12-4fc6a39cbc67?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/62e87c65-723d-430d-9e12-4fc6a39cbc67/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "SWIM with j\u2010hope (afrobeat remix)",
+        "recording_mbid": "8c5b0a52-f04c-4604-aae9-652ce9a9bbfa",
+        "listen_count": 11764
+      },
+      "musicbrainz": {
+        "id": "8c5b0a52-f04c-4604-aae9-652ce9a9bbfa",
+        "title": "SWIM with j\u2010hope (afrobeat remix)",
+        "first-release-date": "2026-03-27"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:29.990037+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/8c5b0a52-f04c-4604-aae9-652ce9a9bbfa?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/8c5b0a52-f04c-4604-aae9-652ce9a9bbfa/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j-hope",
+        "track_name": "MONA LISA",
+        "recording_mbid": "aa644530-f78b-43fc-96fd-931734d523e5",
+        "listen_count": 11403
+      },
+      "musicbrainz": {
+        "id": "aa644530-f78b-43fc-96fd-931734d523e5",
+        "title": "MONA LISA",
+        "first-release-date": "2025-03-21"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:32.100224+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/aa644530-f78b-43fc-96fd-931734d523e5?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/aa644530-f78b-43fc-96fd-931734d523e5/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jung Kook",
+        "track_name": "Somebody",
+        "recording_mbid": "51d70ab9-bf1b-4872-be50-5956655b6145",
+        "listen_count": 10649
+      },
+      "musicbrainz": {
+        "id": "51d70ab9-bf1b-4872-be50-5956655b6145",
+        "title": "Somebody",
+        "first-release-date": "2023-11-03"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:36.282545+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/51d70ab9-bf1b-4872-be50-5956655b6145?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/51d70ab9-bf1b-4872-be50-5956655b6145/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Agust D",
+        "track_name": "140503 at dawn",
+        "recording_mbid": "366231d3-fee2-4600-a589-bf2976e36462",
+        "listen_count": 9942
+      },
+      "musicbrainz": {
+        "id": "366231d3-fee2-4600-a589-bf2976e36462",
+        "title": "140503 at dawn",
+        "first-release-date": "2015-08-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:38.387565+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/366231d3-fee2-4600-a589-bf2976e36462?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/366231d3-fee2-4600-a589-bf2976e36462/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Intro : Persona",
+        "recording_mbid": "902be3e7-5631-4871-ac6a-5a45b30bf1ce",
+        "listen_count": 8835
+      },
+      "musicbrainz": {
+        "id": "902be3e7-5631-4871-ac6a-5a45b30bf1ce",
+        "title": "Intro : Persona",
+        "first-release-date": "2019-04-12"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 86.8566207886
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1682.18469238
+          },
+          "average_loudness": 0.932724773884
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:42.952653+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/902be3e7-5631-4871-ac6a-5a45b30bf1ce?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/902be3e7-5631-4871-ac6a-5a45b30bf1ce/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "IDOL",
+        "recording_mbid": "057fb67c-9aa9-405d-9bc0-0d14cf9ca3e0",
+        "listen_count": 7565
+      },
+      "musicbrainz": {
+        "id": "057fb67c-9aa9-405d-9bc0-0d14cf9ca3e0",
+        "title": "IDOL",
+        "first-release-date": "2018-08-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 125.937828064
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 2279.23291016
+          },
+          "average_loudness": 0.907099187374
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:46.345428+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/057fb67c-9aa9-405d-9bc0-0d14cf9ca3e0?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/057fb67c-9aa9-405d-9bc0-0d14cf9ca3e0/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Agust D",
+        "track_name": "Interlude : Set me free",
+        "recording_mbid": "f37a041b-5cf8-41cb-8fc9-e264c477e170",
+        "listen_count": 6726
+      },
+      "musicbrainz": {
+        "id": "f37a041b-5cf8-41cb-8fc9-e264c477e170",
+        "title": "Interlude : Set me free",
+        "first-release-date": "2020-05-22"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 129.468612671
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1046.3840332
+          },
+          "average_loudness": 0.566962063313
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:48.573465+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f37a041b-5cf8-41cb-8fc9-e264c477e170?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f37a041b-5cf8-41cb-8fc9-e264c477e170/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Trivia \u8f49 : Seesaw",
+        "recording_mbid": "7377e42e-7b0d-412c-8560-162413cd525d",
+        "listen_count": 6206
+      },
+      "musicbrainz": {
+        "error": "curl: (56) The requested URL returned error: 503"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:50.540481+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/7377e42e-7b0d-412c-8560-162413cd525d?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/7377e42e-7b0d-412c-8560-162413cd525d/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "RM with Colde",
+        "track_name": "Hectic",
+        "recording_mbid": "28c2f43d-1574-4450-b324-b7c7ad907742",
+        "listen_count": 6004
+      },
+      "musicbrainz": {
+        "id": "28c2f43d-1574-4450-b324-b7c7ad907742",
+        "title": "Hectic",
+        "first-release-date": "2022-12-02"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:52.644302+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/28c2f43d-1574-4450-b324-b7c7ad907742?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/28c2f43d-1574-4450-b324-b7c7ad907742/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Agust D",
+        "track_name": "Interlude : Dream, Reality",
+        "recording_mbid": "efd9c6c4-09e4-40e1-b690-de944722530c",
+        "listen_count": 5594
+      },
+      "musicbrainz": {
+        "id": "efd9c6c4-09e4-40e1-b690-de944722530c",
+        "title": "Interlude : Dream, Reality",
+        "first-release-date": "2015-08-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:54.948033+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/efd9c6c4-09e4-40e1-b690-de944722530c?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/efd9c6c4-09e4-40e1-b690-de944722530c/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "00:00 (Zero O\u2019Clock)",
+        "recording_mbid": "c95f01d4-9ff1-4090-b4bc-cef02b756d73",
+        "listen_count": 5242
+      },
+      "musicbrainz": {
+        "id": "c95f01d4-9ff1-4090-b4bc-cef02b756d73",
+        "title": "00:00 (Zero O\u2019Clock)",
+        "first-release-date": "2020-02-21"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 156.457778931
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1608.35766602
+          },
+          "average_loudness": 0.67468559742
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:49:57.375824+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/c95f01d4-9ff1-4090-b4bc-cef02b756d73?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/c95f01d4-9ff1-4090-b4bc-cef02b756d73/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "V",
+        "track_name": "Sweet Night",
+        "recording_mbid": "7095733b-dd51-4a77-b21b-486029858879",
+        "listen_count": 5075
+      },
+      "musicbrainz": {
+        "id": "7095733b-dd51-4a77-b21b-486029858879",
+        "title": "Sweet Night",
+        "first-release-date": "2020-03-13"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:00.403482+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/7095733b-dd51-4a77-b21b-486029858879?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/7095733b-dd51-4a77-b21b-486029858879/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "N.O",
+        "recording_mbid": "4ca68043-cffc-455a-90ca-3ab2f6ae78e7",
+        "listen_count": 4873
+      },
+      "musicbrainz": {
+        "id": "4ca68043-cffc-455a-90ca-3ab2f6ae78e7",
+        "title": "N.O",
+        "first-release-date": "2013-09-11"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 147.01625061
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1667.45788574
+          },
+          "average_loudness": 0.904220759869
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:02.743595+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/4ca68043-cffc-455a-90ca-3ab2f6ae78e7?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/4ca68043-cffc-455a-90ca-3ab2f6ae78e7/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "RM",
+        "track_name": "Bicycle",
+        "recording_mbid": "3fec3951-72d0-4a4c-8b9c-d83476f8e68f",
+        "listen_count": 4747
+      },
+      "musicbrainz": {
+        "id": "3fec3951-72d0-4a4c-8b9c-d83476f8e68f",
+        "title": "Bicycle",
+        "first-release-date": "2021-06-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:04.985526+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/3fec3951-72d0-4a4c-8b9c-d83476f8e68f?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/3fec3951-72d0-4a4c-8b9c-d83476f8e68f/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jin",
+        "track_name": "Background",
+        "recording_mbid": "c801a4be-4dc1-453f-bed8-4059133897ac",
+        "listen_count": 4629
+      },
+      "musicbrainz": {
+        "id": "c801a4be-4dc1-453f-bed8-4059133897ac",
+        "title": "Background",
+        "first-release-date": "2025-05-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:07.079668+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/c801a4be-4dc1-453f-bed8-4059133897ac?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/c801a4be-4dc1-453f-bed8-4059133897ac/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Temper City",
+        "track_name": "Self Aware",
+        "recording_mbid": "0a520ae3-452f-43fe-807d-2185cb352995",
+        "listen_count": 4466
+      },
+      "musicbrainz": {
+        "id": "0a520ae3-452f-43fe-807d-2185cb352995",
+        "title": "Self Aware",
+        "first-release-date": "2026-02-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:09.194431+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/0a520ae3-452f-43fe-807d-2185cb352995?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/0a520ae3-452f-43fe-807d-2185cb352995/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Interlude",
+        "recording_mbid": "1332fb43-23fc-4cda-89e9-693a873ce2ff",
+        "listen_count": 4276
+      },
+      "musicbrainz": {
+        "id": "1332fb43-23fc-4cda-89e9-693a873ce2ff",
+        "title": "Interlude",
+        "first-release-date": "2013-06-12"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 125.926635742
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1209.06066895
+          },
+          "average_loudness": 0.798460304737
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:11.529765+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1332fb43-23fc-4cda-89e9-693a873ce2ff?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1332fb43-23fc-4cda-89e9-693a873ce2ff/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jimin",
+        "track_name": "Alone",
+        "recording_mbid": "ecb060ab-3444-4577-a470-b2092fe40f3a",
+        "listen_count": 4196
+      },
+      "musicbrainz": {
+        "id": "ecb060ab-3444-4577-a470-b2092fe40f3a",
+        "title": "Alone",
+        "first-release-date": "2023-03-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:13.619626+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/ecb060ab-3444-4577-a470-b2092fe40f3a?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/ecb060ab-3444-4577-a470-b2092fe40f3a/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j\u2010hope",
+        "track_name": "Blue Side (outro)",
+        "recording_mbid": "5aefff2f-6e6a-46fa-ae66-e46351257610",
+        "listen_count": 4116
+      },
+      "musicbrainz": {
+        "id": "5aefff2f-6e6a-46fa-ae66-e46351257610",
+        "title": "Blue Side (outro)",
+        "first-release-date": "2018-03-02"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:15.716239+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/5aefff2f-6e6a-46fa-ae66-e46351257610?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/5aefff2f-6e6a-46fa-ae66-e46351257610/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "JIN",
+        "track_name": "Another Level",
+        "recording_mbid": "f78fcd84-321b-47c4-9942-70a2bc9bf8d2",
+        "listen_count": 3943
+      },
+      "musicbrainz": {
+        "id": "f78fcd84-321b-47c4-9942-70a2bc9bf8d2",
+        "title": "Another Level",
+        "first-release-date": "2024-11-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:17.993391+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f78fcd84-321b-47c4-9942-70a2bc9bf8d2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f78fcd84-321b-47c4-9942-70a2bc9bf8d2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Butterfly",
+        "recording_mbid": "57583826-56dc-4d3b-8644-805134861412",
+        "listen_count": 3851
+      },
+      "musicbrainz": {
+        "id": "57583826-56dc-4d3b-8644-805134861412",
+        "title": "Butterfly",
+        "first-release-date": "2015-11-30"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 149.956451416
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1754.79492188
+          },
+          "average_loudness": 0.917881429195
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:20.437973+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/57583826-56dc-4d3b-8644-805134861412?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/57583826-56dc-4d3b-8644-805134861412/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Malcolm Todd",
+        "track_name": "Earrings",
+        "recording_mbid": "5167d8a8-f450-4062-be89-4d427a436540",
+        "listen_count": 3791
+      },
+      "musicbrainz": {
+        "id": "5167d8a8-f450-4062-be89-4d427a436540",
+        "title": "Earrings",
+        "first-release-date": "2024-04-05"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:23.583430+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/5167d8a8-f450-4062-be89-4d427a436540?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/5167d8a8-f450-4062-be89-4d427a436540/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Tame Impala",
+        "track_name": "The Less I Know the Better",
+        "recording_mbid": "78be434c-0908-458f-9693-f16cdebb68ef",
+        "listen_count": 3696
+      },
+      "musicbrainz": {
+        "id": "78be434c-0908-458f-9693-f16cdebb68ef",
+        "title": "The Less I Know the Better",
+        "first-release-date": "2015-07-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 117.135108948
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1212.62744141
+          },
+          "average_loudness": 0.954539716244
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:25.978424+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/78be434c-0908-458f-9693-f16cdebb68ef?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/78be434c-0908-458f-9693-f16cdebb68ef/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Djo",
+        "track_name": "End of Beginning",
+        "recording_mbid": "74f3b043-c0b4-4590-8c10-bfc4e3a06fef",
+        "listen_count": 3648
+      },
+      "musicbrainz": {
+        "id": "74f3b043-c0b4-4590-8c10-bfc4e3a06fef",
+        "title": "End of Beginning",
+        "first-release-date": "2022-09-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:28.986594+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/74f3b043-c0b4-4590-8c10-bfc4e3a06fef?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/74f3b043-c0b4-4590-8c10-bfc4e3a06fef/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Radiohead",
+        "track_name": "No Surprises",
+        "recording_mbid": "980a426e-623e-4ea5-98c7-008d037a0508",
+        "listen_count": 3511
+      },
+      "musicbrainz": {
+        "id": "980a426e-623e-4ea5-98c7-008d037a0508",
+        "title": "No Surprises",
+        "first-release-date": "1997-05-21"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 154.309616089
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 721.544311523
+          },
+          "average_loudness": 0.94081556797
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:31.449694+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/980a426e-623e-4ea5-98c7-008d037a0508?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/980a426e-623e-4ea5-98c7-008d037a0508/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Billie Eilish",
+        "track_name": "BIRDS OF A FEATHER",
+        "recording_mbid": "3a7e1970-069c-4761-a6b2-9046e54406bc",
+        "listen_count": 3377
+      },
+      "musicbrainz": {
+        "id": "3a7e1970-069c-4761-a6b2-9046e54406bc",
+        "title": "BIRDS OF A FEATHER",
+        "first-release-date": "2024-05-17"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:34.513703+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/3a7e1970-069c-4761-a6b2-9046e54406bc?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/3a7e1970-069c-4761-a6b2-9046e54406bc/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Outro : Ego",
+        "recording_mbid": "273d9665-3d8f-4222-b249-daac1b16c8a4",
+        "listen_count": 3257
+      },
+      "musicbrainz": {
+        "error": "curl: (56) The requested URL returned error: 503"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 117.010169983
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1844.75109863
+          },
+          "average_loudness": 0.926600635052
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:36.940572+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/273d9665-3d8f-4222-b249-daac1b16c8a4?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/273d9665-3d8f-4222-b249-daac1b16c8a4/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jimin feat. Sofia Carson",
+        "track_name": "Slow Dance",
+        "recording_mbid": "1047dc27-f3d4-4ccd-969b-419e0a68b9d2",
+        "listen_count": 3150
+      },
+      "musicbrainz": {
+        "id": "1047dc27-f3d4-4ccd-969b-419e0a68b9d2",
+        "title": "Slow Dance",
+        "first-release-date": "2024-07-19"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:39.020978+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1047dc27-f3d4-4ccd-969b-419e0a68b9d2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1047dc27-f3d4-4ccd-969b-419e0a68b9d2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Nirvana",
+        "track_name": "Come as You Are",
+        "recording_mbid": "70ac6733-068f-4613-b06b-bea17cfbcc30",
+        "listen_count": 3065
+      },
+      "musicbrainz": {
+        "id": "70ac6733-068f-4613-b06b-bea17cfbcc30",
+        "title": "Come as You Are",
+        "first-release-date": "1991-09-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 120.91947937
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1844.27258301
+          },
+          "average_loudness": 0.962090611458
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:41.425912+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/70ac6733-068f-4613-b06b-bea17cfbcc30?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/70ac6733-068f-4613-b06b-bea17cfbcc30/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "sombr",
+        "track_name": "back to friends",
+        "recording_mbid": "e374d8c3-da4b-42ce-84dd-26f7236907c3",
+        "listen_count": 2964
+      },
+      "musicbrainz": {
+        "id": "e374d8c3-da4b-42ce-84dd-26f7236907c3",
+        "title": "back to friends",
+        "first-release-date": "2024-12-27"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:43.517502+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/e374d8c3-da4b-42ce-84dd-26f7236907c3?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/e374d8c3-da4b-42ce-84dd-26f7236907c3/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Ninajirachi",
+        "track_name": "Fuck My Computer",
+        "recording_mbid": "372554be-ed17-414e-9b93-e5e51ff90e1a",
+        "listen_count": 2856
+      },
+      "musicbrainz": {
+        "id": "372554be-ed17-414e-9b93-e5e51ff90e1a",
+        "title": "Fuck My Computer",
+        "first-release-date": "2025-05-14"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:45.593394+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/372554be-ed17-414e-9b93-e5e51ff90e1a?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/372554be-ed17-414e-9b93-e5e51ff90e1a/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Linkin Park",
+        "track_name": "What I\u2019ve Done",
+        "recording_mbid": "50347f42-2a40-4df6-b358-07f994af7a3f",
+        "listen_count": 2810
+      },
+      "musicbrainz": {
+        "id": "50347f42-2a40-4df6-b358-07f994af7a3f",
+        "title": "What I\u2019ve Done",
+        "first-release-date": "2007-04-02"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 120.071968079
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1757.78686523
+          },
+          "average_loudness": 0.812290847301
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:48.195288+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/50347f42-2a40-4df6-b358-07f994af7a3f?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/50347f42-2a40-4df6-b358-07f994af7a3f/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "INTRO.",
+        "recording_mbid": "ae99d094-d471-4a16-8703-9802efaba49c",
+        "listen_count": 2681
+      },
+      "musicbrainz": {
+        "id": "ae99d094-d471-4a16-8703-9802efaba49c",
+        "title": "INTRO.",
+        "first-release-date": "2014-12-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:50.220567+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/ae99d094-d471-4a16-8703-9802efaba49c?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/ae99d094-d471-4a16-8703-9802efaba49c/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "I\u2019m Fine",
+        "recording_mbid": "91fc00c8-8a9a-4dc5-9173-b3d7d5e15fcf",
+        "listen_count": 2630
+      },
+      "musicbrainz": {
+        "id": "91fc00c8-8a9a-4dc5-9173-b3d7d5e15fcf",
+        "title": "I\u2019m Fine",
+        "first-release-date": "2018-08-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:52.284902+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/91fc00c8-8a9a-4dc5-9173-b3d7d5e15fcf?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/91fc00c8-8a9a-4dc5-9173-b3d7d5e15fcf/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Soundgarden",
+        "track_name": "Black Hole Sun",
+        "recording_mbid": "14e9b000-b3d8-453f-abb9-26fbdecf3dbc",
+        "listen_count": 2560
+      },
+      "musicbrainz": {
+        "id": "14e9b000-b3d8-453f-abb9-26fbdecf3dbc",
+        "title": "Black Hole Sun",
+        "first-release-date": "1994-03-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 106.486053467
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1689.09533691
+          },
+          "average_loudness": 0.865365207195
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:54.636922+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/14e9b000-b3d8-453f-abb9-26fbdecf3dbc?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/14e9b000-b3d8-453f-abb9-26fbdecf3dbc/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "V & Bing Crosby",
+        "track_name": "White Christmas",
+        "recording_mbid": "224f4c14-d85a-4da0-9766-89b4b0c7516b",
+        "listen_count": 2518
+      },
+      "musicbrainz": {
+        "id": "224f4c14-d85a-4da0-9766-89b4b0c7516b",
+        "title": "White Christmas",
+        "first-release-date": "2024-12-06"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:50:56.747103+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/224f4c14-d85a-4da0-9766-89b4b0c7516b?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/224f4c14-d85a-4da0-9766-89b4b0c7516b/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j\u2010hope feat. Becky G",
+        "track_name": "Chicken Noodle Soup",
+        "recording_mbid": "a21b7712-295f-4a8b-8b02-00812b21d62b",
+        "listen_count": 2449
+      },
+      "musicbrainz": {
+        "id": "a21b7712-295f-4a8b-8b02-00812b21d62b",
+        "title": "Chicken Noodle Soup",
+        "first-release-date": "2019-09-27"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 97.0028381348
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1914.8795166
+          },
+          "average_loudness": 0.92393475771
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:00.281083+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/a21b7712-295f-4a8b-8b02-00812b21d62b?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/a21b7712-295f-4a8b-8b02-00812b21d62b/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j\u2010hope",
+        "track_name": "P.O.P (Piece of Peace), Pt. 1",
+        "recording_mbid": "e8fc1bc8-c764-48e3-967f-edcf1652dbf5",
+        "listen_count": 2405
+      },
+      "musicbrainz": {
+        "id": "e8fc1bc8-c764-48e3-967f-edcf1652dbf5",
+        "title": "P.O.P (Piece of Peace), Pt. 1",
+        "first-release-date": "2018-03-02"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:02.380240+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/e8fc1bc8-c764-48e3-967f-edcf1652dbf5?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/e8fc1bc8-c764-48e3-967f-edcf1652dbf5/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "SWIM (Underwater remix)",
+        "recording_mbid": "d95900b6-07da-4610-a31e-e1e36fc219dc",
+        "listen_count": 2379
+      },
+      "musicbrainz": {
+        "id": "d95900b6-07da-4610-a31e-e1e36fc219dc",
+        "title": "SWIM (Underwater remix)",
+        "first-release-date": "2026-04-10"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:04.491965+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/d95900b6-07da-4610-a31e-e1e36fc219dc?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/d95900b6-07da-4610-a31e-e1e36fc219dc/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Phoebe Bridgers",
+        "track_name": "Lost Boys",
+        "recording_mbid": "2e7233ff-aa33-47ab-8941-6e15d36e1f45",
+        "listen_count": 2325
+      },
+      "musicbrainz": {
+        "id": "2e7233ff-aa33-47ab-8941-6e15d36e1f45",
+        "title": "Lost Boys",
+        "first-release-date": "2026-06-25"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:06.813091+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/2e7233ff-aa33-47ab-8941-6e15d36e1f45?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/2e7233ff-aa33-47ab-8941-6e15d36e1f45/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Rage Against the Machine",
+        "track_name": "Killing in the Name",
+        "recording_mbid": "5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5",
+        "listen_count": 2293
+      },
+      "musicbrainz": {
+        "id": "5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5",
+        "title": "Killing in the Name",
+        "first-release-date": "1992-09-04"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 89.9424362183
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1439.13452148
+          },
+          "average_loudness": 0.878820598125
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:09.175981+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "IU feat. SUGA",
+        "track_name": "eight",
+        "recording_mbid": "1378b1cd-5280-4059-ac14-2d80aa4d4e6e",
+        "listen_count": 2261
+      },
+      "musicbrainz": {
+        "id": "1378b1cd-5280-4059-ac14-2d80aa4d4e6e",
+        "title": "eight",
+        "first-release-date": "2020-05-06"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 120.034736633
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1476.14013672
+          },
+          "average_loudness": 0.918063819408
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:11.667861+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1378b1cd-5280-4059-ac14-2d80aa4d4e6e?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1378b1cd-5280-4059-ac14-2d80aa4d4e6e/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Post Malone & Swae Lee",
+        "track_name": "Sunflower (Spider-Man: Into the Spider-Verse)",
+        "recording_mbid": "b6df9d04-2303-4ec7-a416-367b06a026cb",
+        "listen_count": 2236
+      },
+      "musicbrainz": {
+        "id": "b6df9d04-2303-4ec7-a416-367b06a026cb",
+        "title": "Sunflower (Spider-Man: Into the Spider-Verse)",
+        "first-release-date": "2018-10-18"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 89.8964920044
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1145.22424316
+          },
+          "average_loudness": 0.897321462631
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:14.310419+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/b6df9d04-2303-4ec7-a416-367b06a026cb?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/b6df9d04-2303-4ec7-a416-367b06a026cb/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Toto",
+        "track_name": "Africa",
+        "recording_mbid": "55dc4892-b5ae-4bd7-9e98-2a0d4dd53cbc",
+        "listen_count": 2218
+      },
+      "musicbrainz": {
+        "id": "55dc4892-b5ae-4bd7-9e98-2a0d4dd53cbc",
+        "title": "Africa",
+        "first-release-date": "1982-04-08"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 92.0030212402
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 999.877563477
+          },
+          "average_loudness": 0.861794233322
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:17.555072+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/55dc4892-b5ae-4bd7-9e98-2a0d4dd53cbc?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/55dc4892-b5ae-4bd7-9e98-2a0d4dd53cbc/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Slayyyter",
+        "track_name": "CRANK",
+        "recording_mbid": "eaf77053-fc29-4274-adfd-3ffe21e9c604",
+        "listen_count": 2176
+      },
+      "musicbrainz": {
+        "id": "898d3f41-a0c3-470e-95ac-b3efa0fb8de2",
+        "title": "CRANK",
+        "first-release-date": "2025-10-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:19.740377+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/eaf77053-fc29-4274-adfd-3ffe21e9c604?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/eaf77053-fc29-4274-adfd-3ffe21e9c604/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "CORTIS",
+        "track_name": "Lullaby",
+        "recording_mbid": "fa468fa9-c8dc-411f-8b5e-5fd956156d40",
+        "listen_count": 2140
+      },
+      "musicbrainz": {
+        "id": "fa468fa9-c8dc-411f-8b5e-5fd956156d40",
+        "title": "Lullaby",
+        "first-release-date": "2025-09-08"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:22.827720+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/fa468fa9-c8dc-411f-8b5e-5fd956156d40?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/fa468fa9-c8dc-411f-8b5e-5fd956156d40/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Halsey",
+        "track_name": "Lilith",
+        "recording_mbid": "0b0eb277-9e87-4d4f-97a5-81cd5d095959",
+        "listen_count": 2122
+      },
+      "musicbrainz": {
+        "id": "0b0eb277-9e87-4d4f-97a5-81cd5d095959",
+        "title": "Lilith",
+        "first-release-date": "2021-08-27"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 83.9761734009
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1054.24804688
+          },
+          "average_loudness": 0.697477579117
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:25.434811+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/0b0eb277-9e87-4d4f-97a5-81cd5d095959?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/0b0eb277-9e87-4d4f-97a5-81cd5d095959/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j\u2010hope",
+        "track_name": "Safety Zone",
+        "recording_mbid": "4c5dd1eb-0609-494b-b562-a2b88c0c8ebc",
+        "listen_count": 2110
+      },
+      "musicbrainz": {
+        "id": "4c5dd1eb-0609-494b-b562-a2b88c0c8ebc",
+        "title": "Safety Zone",
+        "first-release-date": "2022-07-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:27.684618+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/4c5dd1eb-0609-494b-b562-a2b88c0c8ebc?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/4c5dd1eb-0609-494b-b562-a2b88c0c8ebc/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Tame Impala",
+        "track_name": "New Person, Same Old Mistakes",
+        "recording_mbid": "f078699c-9b68-4040-9ba4-b1e4f7d86598",
+        "listen_count": 2091
+      },
+      "musicbrainz": {
+        "id": "f078699c-9b68-4040-9ba4-b1e4f7d86598",
+        "title": "New Person, Same Old Mistakes",
+        "first-release-date": "2015-07-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 151.944763184
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1151.07788086
+          },
+          "average_loudness": 0.874846041203
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:30.809306+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f078699c-9b68-4040-9ba4-b1e4f7d86598?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f078699c-9b68-4040-9ba4-b1e4f7d86598/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Radiohead",
+        "track_name": "Weird Fishes/Arpeggi",
+        "recording_mbid": "f74b48a6-5a60-4b5a-864d-3ecb7e983c31",
+        "listen_count": 2045
+      },
+      "musicbrainz": {
+        "id": "f74b48a6-5a60-4b5a-864d-3ecb7e983c31",
+        "title": "Weird Fishes/Arpeggi",
+        "first-release-date": "2007-10-10"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 152.837753296
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 573.413208008
+          },
+          "average_loudness": 0.7786642313
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:38.944879+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f74b48a6-5a60-4b5a-864d-3ecb7e983c31?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f74b48a6-5a60-4b5a-864d-3ecb7e983c31/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Miley Cyrus",
+        "track_name": "Bass Persuades",
+        "recording_mbid": "c031e3c3-c9fd-48f5-8a5e-d7d2a6cd01e2",
+        "listen_count": 2003
+      },
+      "musicbrainz": {
+        "id": "c031e3c3-c9fd-48f5-8a5e-d7d2a6cd01e2",
+        "title": "Bass Persuades",
+        "first-release-date": "2026-09-03"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:43.789332+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/c031e3c3-c9fd-48f5-8a5e-d7d2a6cd01e2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/c031e3c3-c9fd-48f5-8a5e-d7d2a6cd01e2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Audioslave",
+        "track_name": "Like a Stone",
+        "recording_mbid": "1fbc0c99-3094-410c-8c44-a3d2b87ec423",
+        "listen_count": 1979
+      },
+      "musicbrainz": {
+        "id": "1fbc0c99-3094-410c-8c44-a3d2b87ec423",
+        "title": "Like a Stone",
+        "first-release-date": "2002-11-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 107.895698547
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1054.09631348
+          },
+          "average_loudness": 0.723149418831
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:51.168729+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1fbc0c99-3094-410c-8c44-a3d2b87ec423?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1fbc0c99-3094-410c-8c44-a3d2b87ec423/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Arctic Monkeys",
+        "track_name": "I Wanna Be Yours",
+        "recording_mbid": "a1ff202f-f271-4646-9aac-ba7c98e3a50c",
+        "listen_count": 1962
+      },
+      "musicbrainz": {
+        "id": "a1ff202f-f271-4646-9aac-ba7c98e3a50c",
+        "title": "I Wanna Be Yours",
+        "first-release-date": "2013-08-01"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 135.182922363
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 755.963867188
+          },
+          "average_loudness": 0.871096372604
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:51:58.043273+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/a1ff202f-f271-4646-9aac-ba7c98e3a50c?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/a1ff202f-f271-4646-9aac-ba7c98e3a50c/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jimmy Eat World",
+        "track_name": "The Middle",
+        "recording_mbid": "e3b7cd96-c41d-497a-b401-dc7494f638db",
+        "listen_count": 1935
+      },
+      "musicbrainz": {
+        "id": "e3b7cd96-c41d-497a-b401-dc7494f638db",
+        "title": "The Middle",
+        "first-release-date": "2001-07-17"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 162.273071289
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 956.421203613
+          },
+          "average_loudness": 0.944739997387
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:00.302651+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/e3b7cd96-c41d-497a-b401-dc7494f638db?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/e3b7cd96-c41d-497a-b401-dc7494f638db/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "Stay Gold",
+        "recording_mbid": "1733bab5-99dc-43a8-af03-e9e723aa6a41",
+        "listen_count": 1913
+      },
+      "musicbrainz": {
+        "id": "1733bab5-99dc-43a8-af03-e9e723aa6a41",
+        "title": "Stay Gold",
+        "first-release-date": "2020-06-19"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:02.429630+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1733bab5-99dc-43a8-af03-e9e723aa6a41?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1733bab5-99dc-43a8-af03-e9e723aa6a41/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "underscores",
+        "track_name": "Hollywood Forever",
+        "recording_mbid": "41f73c9d-3436-494b-95d4-9d56e4e7dfae",
+        "listen_count": 1886
+      },
+      "musicbrainz": {
+        "id": "41f73c9d-3436-494b-95d4-9d56e4e7dfae",
+        "title": "Hollywood Forever",
+        "first-release-date": "2026-03-20"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:04.498791+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/41f73c9d-3436-494b-95d4-9d56e4e7dfae?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/41f73c9d-3436-494b-95d4-9d56e4e7dfae/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Black Sabbath",
+        "track_name": "Paranoid",
+        "recording_mbid": "868e3b55-4e4a-475f-94a8-020a6edc0aa2",
+        "listen_count": 1876
+      },
+      "musicbrainz": {
+        "id": "868e3b55-4e4a-475f-94a8-020a6edc0aa2",
+        "title": "Paranoid",
+        "first-release-date": "1970-08-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 163.062057495
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 786.128356934
+          },
+          "average_loudness": 0.960338115692
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:06.866096+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/868e3b55-4e4a-475f-94a8-020a6edc0aa2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/868e3b55-4e4a-475f-94a8-020a6edc0aa2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Alice in Chains",
+        "track_name": "Man in the Box",
+        "recording_mbid": "1b055a51-eac1-4b06-a28f-d0b8c7a5e65a",
+        "listen_count": 1834
+      },
+      "musicbrainz": {
+        "id": "1b055a51-eac1-4b06-a28f-d0b8c7a5e65a",
+        "title": "Man in the Box",
+        "first-release-date": "1990-08-28"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 110.291419983
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1173.45861816
+          },
+          "average_loudness": 0.891544222832
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:09.224814+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1b055a51-eac1-4b06-a28f-d0b8c7a5e65a?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1b055a51-eac1-4b06-a28f-d0b8c7a5e65a/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Green Day",
+        "track_name": "When I Come Around",
+        "recording_mbid": "a52d71cb-443c-4910-b37c-cd70e4b0b1ef",
+        "listen_count": 1804
+      },
+      "musicbrainz": {
+        "id": "a52d71cb-443c-4910-b37c-cd70e4b0b1ef",
+        "title": "When I Come Around",
+        "first-release-date": "1994-01-28"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 97.9415969849
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1263.18139648
+          },
+          "average_loudness": 0.932236194611
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:11.582871+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/a52d71cb-443c-4910-b37c-cd70e4b0b1ef?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/a52d71cb-443c-4910-b37c-cd70e4b0b1ef/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "j\u2010hope with JINBO the SuperFreak",
+        "track_name": "what if\u2026 (dance mix)",
+        "recording_mbid": "5048c551-1426-486b-b3be-0ad88b050a9e",
+        "listen_count": 1783
+      },
+      "musicbrainz": {
+        "id": "5048c551-1426-486b-b3be-0ad88b050a9e",
+        "title": "what if\u2026 (dance mix)",
+        "first-release-date": "2024-03-29"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:13.728989+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/5048c551-1426-486b-b3be-0ad88b050a9e?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/5048c551-1426-486b-b3be-0ad88b050a9e/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Mitski",
+        "track_name": "My Love Mine All Mine",
+        "recording_mbid": "8f667b90-a2a4-46ea-8806-e957ea78c7bd",
+        "listen_count": 1777
+      },
+      "musicbrainz": {
+        "id": "8f667b90-a2a4-46ea-8806-e957ea78c7bd",
+        "title": "My Love Mine All Mine",
+        "first-release-date": "2023-09-15"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:15.813490+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/8f667b90-a2a4-46ea-8806-e957ea78c7bd?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/8f667b90-a2a4-46ea-8806-e957ea78c7bd/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Foo Fighters",
+        "track_name": "The Pretender",
+        "recording_mbid": "ffb3f2b6-460d-4334-8221-c4912df88972",
+        "listen_count": 1751
+      },
+      "musicbrainz": {
+        "id": "ffb3f2b6-460d-4334-8221-c4912df88972",
+        "title": "The Pretender",
+        "first-release-date": "2007-07-21"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 172.264953613
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1871.30126953
+          },
+          "average_loudness": 0.807868123055
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:18.272174+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/ffb3f2b6-460d-4334-8221-c4912df88972?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/ffb3f2b6-460d-4334-8221-c4912df88972/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Keane",
+        "track_name": "Somewhere Only We Know",
+        "recording_mbid": "0868857f-740f-47c1-a2c7-b6323c185c63",
+        "listen_count": 1731
+      },
+      "musicbrainz": {
+        "id": "0868857f-740f-47c1-a2c7-b6323c185c63",
+        "title": "Somewhere Only We Know",
+        "first-release-date": "2004-02-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 172.265090942
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1001.25970459
+          },
+          "average_loudness": 0.847297012806
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:21.019319+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/0868857f-740f-47c1-a2c7-b6323c185c63?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/0868857f-740f-47c1-a2c7-b6323c185c63/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "America",
+        "track_name": "A Horse With No Name",
+        "recording_mbid": "90141c46-0f99-4435-a90a-af666d6599b7",
+        "listen_count": 1706
+      },
+      "musicbrainz": {
+        "id": "90141c46-0f99-4435-a90a-af666d6599b7",
+        "title": "A Horse With No Name",
+        "first-release-date": "1971-12-01"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 124.163658142
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 860.442199707
+          },
+          "average_loudness": 0.781889855862
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:25.607734+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/90141c46-0f99-4435-a90a-af666d6599b7?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/90141c46-0f99-4435-a90a-af666d6599b7/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Linkin Park",
+        "track_name": "A Place for My Head",
+        "recording_mbid": "95dcc4ef-9ec6-4279-a054-6ae73a698742",
+        "listen_count": 1696
+      },
+      "musicbrainz": {
+        "id": "95dcc4ef-9ec6-4279-a054-6ae73a698742",
+        "title": "A Place for My Head",
+        "first-release-date": "2000-05-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 133.044143677
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1825.9576416
+          },
+          "average_loudness": 0.889611124992
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:27.840600+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/95dcc4ef-9ec6-4279-a054-6ae73a698742?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/95dcc4ef-9ec6-4279-a054-6ae73a698742/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Linkin Park",
+        "track_name": "Pushing Me Away",
+        "recording_mbid": "78b41371-be0d-4325-87b3-9c67582e9f79",
+        "listen_count": 1670
+      },
+      "musicbrainz": {
+        "id": "78b41371-be0d-4325-87b3-9c67582e9f79",
+        "title": "Pushing Me Away",
+        "first-release-date": "2000-05-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 103.051422119
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1766.78613281
+          },
+          "average_loudness": 0.957367658615
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:30.209138+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/78b41371-be0d-4325-87b3-9c67582e9f79?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/78b41371-be0d-4325-87b3-9c67582e9f79/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Duran Duran",
+        "track_name": "Invisible",
+        "recording_mbid": "f255cd18-2727-4aae-91c6-0f5c43b288fa",
+        "listen_count": 1665
+      },
+      "musicbrainz": {
+        "id": "f255cd18-2727-4aae-91c6-0f5c43b288fa",
+        "title": "Invisible",
+        "first-release-date": "2021-05-19"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 113.978286743
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 2114.96337891
+          },
+          "average_loudness": 0.92394810915
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:32.557539+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f255cd18-2727-4aae-91c6-0f5c43b288fa?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f255cd18-2727-4aae-91c6-0f5c43b288fa/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "KiiiKiii",
+        "track_name": "Pop Off Pop Off",
+        "recording_mbid": "04894c82-6127-463c-85d2-e3ef9965c513",
+        "listen_count": 1649
+      },
+      "musicbrainz": {
+        "id": "04894c82-6127-463c-85d2-e3ef9965c513",
+        "title": "Pop Off Pop Off",
+        "first-release-date": "2026-08-10"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:34.573609+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/04894c82-6127-463c-85d2-e3ef9965c513?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/04894c82-6127-463c-85d2-e3ef9965c513/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "AD\u00c9LA",
+        "track_name": "I\u2019m the Man",
+        "recording_mbid": "9ed59d2a-97f0-4f46-a731-94de97976b2d",
+        "listen_count": 1636
+      },
+      "musicbrainz": {
+        "id": "57c734ad-1be3-4ea5-ae47-478a111e169d",
+        "title": "I\u2019m the Man",
+        "first-release-date": "2026-09-04"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:37.620889+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/9ed59d2a-97f0-4f46-a731-94de97976b2d?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/9ed59d2a-97f0-4f46-a731-94de97976b2d/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "The Outfield",
+        "track_name": "Your Love",
+        "recording_mbid": "767e0670-bc0b-43ea-8d9b-3269370539da",
+        "listen_count": 1621
+      },
+      "musicbrainz": {
+        "id": "767e0670-bc0b-43ea-8d9b-3269370539da",
+        "title": "Your Love",
+        "first-release-date": "1985-06-29"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 129.788391113
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1793.63110352
+          },
+          "average_loudness": 0.869417667389
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:40.286755+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/767e0670-bc0b-43ea-8d9b-3269370539da?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/767e0670-bc0b-43ea-8d9b-3269370539da/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Lana Del Rey",
+        "track_name": "Summertime Sadness",
+        "recording_mbid": "8c712e50-1822-4caf-9eb1-6d9cf6f8556f",
+        "listen_count": 1603
+      },
+      "musicbrainz": {
+        "id": "8c712e50-1822-4caf-9eb1-6d9cf6f8556f",
+        "title": "Summertime Sadness",
+        "first-release-date": "2012-01-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 111.900932312
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1177.26403809
+          },
+          "average_loudness": 0.737434208393
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:42.650531+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/8c712e50-1822-4caf-9eb1-6d9cf6f8556f?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/8c712e50-1822-4caf-9eb1-6d9cf6f8556f/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "underscores",
+        "track_name": "Wish U Well",
+        "recording_mbid": "37eb7f92-69a5-40e0-abbc-394821bcfafd",
+        "listen_count": 1591
+      },
+      "musicbrainz": {
+        "id": "37eb7f92-69a5-40e0-abbc-394821bcfafd",
+        "title": "Wish U Well",
+        "first-release-date": "2026-03-20"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:44.747678+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/37eb7f92-69a5-40e0-abbc-394821bcfafd?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/37eb7f92-69a5-40e0-abbc-394821bcfafd/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "BTS",
+        "track_name": "FOR YOU",
+        "recording_mbid": "9eb07aa9-eee8-4dbc-b45d-4379dd0bfaf4",
+        "listen_count": 1580
+      },
+      "musicbrainz": {
+        "id": "9eb07aa9-eee8-4dbc-b45d-4379dd0bfaf4",
+        "title": "FOR YOU",
+        "first-release-date": "2015-06-17"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:46.887327+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/9eb07aa9-eee8-4dbc-b45d-4379dd0bfaf4?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/9eb07aa9-eee8-4dbc-b45d-4379dd0bfaf4/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Linkin Park",
+        "track_name": "Burn It Down",
+        "recording_mbid": "5e54d4be-a83b-41d1-9372-06fa58b4c36d",
+        "listen_count": 1570
+      },
+      "musicbrainz": {
+        "id": "5e54d4be-a83b-41d1-9372-06fa58b4c36d",
+        "title": "Burn It Down",
+        "first-release-date": "2012-04-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 109.980934143
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1435.51647949
+          },
+          "average_loudness": 0.874052762985
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:49.202701+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/5e54d4be-a83b-41d1-9372-06fa58b4c36d?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/5e54d4be-a83b-41d1-9372-06fa58b4c36d/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Olivia Rodrigo & Robert Smith",
+        "track_name": "what\u2019s wrong with me",
+        "recording_mbid": "3dd03e34-af79-483d-96ac-ad4ab10c1331",
+        "listen_count": 1554
+      },
+      "musicbrainz": {
+        "id": "3dd03e34-af79-483d-96ac-ad4ab10c1331",
+        "title": "what\u2019s wrong with me",
+        "first-release-date": "2026-06-12"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:51.240257+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/3dd03e34-af79-483d-96ac-ad4ab10c1331?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/3dd03e34-af79-483d-96ac-ad4ab10c1331/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "sombr",
+        "track_name": "12 to 12",
+        "recording_mbid": "aa4d95ad-3db9-45c0-a11e-6094765cc0d4",
+        "listen_count": 1544
+      },
+      "musicbrainz": {
+        "id": "aa4d95ad-3db9-45c0-a11e-6094765cc0d4",
+        "title": "12 to 12",
+        "first-release-date": "2025-07-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:54.341252+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/aa4d95ad-3db9-45c0-a11e-6094765cc0d4?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/aa4d95ad-3db9-45c0-a11e-6094765cc0d4/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Radiohead",
+        "track_name": "High and Dry",
+        "recording_mbid": "83cf16bc-01db-4766-9e3e-f3c796639cf2",
+        "listen_count": 1530
+      },
+      "musicbrainz": {
+        "id": "83cf16bc-01db-4766-9e3e-f3c796639cf2",
+        "title": "High and Dry",
+        "first-release-date": "1994-11-29"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 88.3270111084
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 793.462158203
+          },
+          "average_loudness": 0.942079842091
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:52:58.051470+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/83cf16bc-01db-4766-9e3e-f3c796639cf2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/83cf16bc-01db-4766-9e3e-f3c796639cf2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Arctic Monkeys",
+        "track_name": "Fluorescent Adolescent",
+        "recording_mbid": "4810b42e-2bb1-4795-874b-85df8fd62ca9",
+        "listen_count": 1517
+      },
+      "musicbrainz": {
+        "id": "4810b42e-2bb1-4795-874b-85df8fd62ca9",
+        "title": "Fluorescent Adolescent",
+        "first-release-date": "2007-04-18"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 112.116264343
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 2049.76025391
+          },
+          "average_loudness": 0.931756734848
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:01.170975+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/4810b42e-2bb1-4795-874b-85df8fd62ca9?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/4810b42e-2bb1-4795-874b-85df8fd62ca9/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Radiohead",
+        "track_name": "Nude",
+        "recording_mbid": "f3bea96c-5ebf-4d37-990d-14f1bc281459",
+        "listen_count": 1501
+      },
+      "musicbrainz": {
+        "id": "f3bea96c-5ebf-4d37-990d-14f1bc281459",
+        "title": "Nude",
+        "first-release-date": "2007-10-10"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 128.405685425
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 492.188140869
+          },
+          "average_loudness": 0.609732151031
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:03.641864+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f3bea96c-5ebf-4d37-990d-14f1bc281459?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f3bea96c-5ebf-4d37-990d-14f1bc281459/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Harry Styles",
+        "track_name": "Watermelon Sugar",
+        "recording_mbid": "1ab009f2-d713-4f85-b4a3-c383c344e24a",
+        "listen_count": 1493
+      },
+      "musicbrainz": {
+        "id": "1ab009f2-d713-4f85-b4a3-c383c344e24a",
+        "title": "Watermelon Sugar",
+        "first-release-date": "2019-11-16"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 95.3008575439
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1207.61572266
+          },
+          "average_loudness": 0.878873944283
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:05.978840+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1ab009f2-d713-4f85-b4a3-c383c344e24a?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1ab009f2-d713-4f85-b4a3-c383c344e24a/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Kanye West",
+        "track_name": "I Wonder",
+        "recording_mbid": "b3a7eae7-1515-45ae-8ca1-ee05544e8965",
+        "listen_count": 1484
+      },
+      "musicbrainz": {
+        "id": "b3a7eae7-1515-45ae-8ca1-ee05544e8965",
+        "title": "I Wonder",
+        "first-release-date": "2007-09-05"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 95.5291061401
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 991.952331543
+          },
+          "average_loudness": 0.926836669445
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:08.346732+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/b3a7eae7-1515-45ae-8ca1-ee05544e8965?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/b3a7eae7-1515-45ae-8ca1-ee05544e8965/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "My Chemical Romance",
+        "track_name": "The Ghost of You",
+        "recording_mbid": "80d26588-e7b2-4685-b0d9-0ad635e19bd8",
+        "listen_count": 1471
+      },
+      "musicbrainz": {
+        "id": "80d26588-e7b2-4685-b0d9-0ad635e19bd8",
+        "title": "The Ghost of You",
+        "first-release-date": "2004-06-08"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 145.218734741
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1655.65393066
+          },
+          "average_loudness": 0.942379176617
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:11.102426+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/80d26588-e7b2-4685-b0d9-0ad635e19bd8?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/80d26588-e7b2-4685-b0d9-0ad635e19bd8/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Michael Jackson",
+        "track_name": "Don\u2019t Stop \u2019Til You Get Enough",
+        "recording_mbid": "2797d6d2-c735-4b48-ae00-8efbf5393517",
+        "listen_count": 1463
+      },
+      "musicbrainz": {
+        "id": "2797d6d2-c735-4b48-ae00-8efbf5393517",
+        "title": "Don\u2019t Stop \u2019Til You Get Enough",
+        "first-release-date": "1979-07"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 119.287483215
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1772.62243652
+          },
+          "average_loudness": 0.908553063869
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:13.722041+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/2797d6d2-c735-4b48-ae00-8efbf5393517?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/2797d6d2-c735-4b48-ae00-8efbf5393517/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Queens of the Stone Age",
+        "track_name": "Go With the Flow",
+        "recording_mbid": "585a4874-4225-4cea-9e3f-151c5d5ad26e",
+        "listen_count": 1459
+      },
+      "musicbrainz": {
+        "id": "585a4874-4225-4cea-9e3f-151c5d5ad26e",
+        "title": "Go With the Flow",
+        "first-release-date": "2002-03"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 162.619812012
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1075.03112793
+          },
+          "average_loudness": 0.978078246117
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:16.995490+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/585a4874-4225-4cea-9e3f-151c5d5ad26e?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/585a4874-4225-4cea-9e3f-151c5d5ad26e/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Steve Lacy",
+        "track_name": "Bad Habit",
+        "recording_mbid": "be62d1e4-c803-40a7-b806-62af232f9972",
+        "listen_count": 1447
+      },
+      "musicbrainz": {
+        "id": "be62d1e4-c803-40a7-b806-62af232f9972",
+        "title": "Bad Habit",
+        "first-release-date": "2022-07-14"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:19.123037+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/be62d1e4-c803-40a7-b806-62af232f9972?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/be62d1e4-c803-40a7-b806-62af232f9972/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Jimin",
+        "track_name": "Closer Than This",
+        "recording_mbid": "772aab88-7361-4a09-b09e-c8272625c153",
+        "listen_count": 1437
+      },
+      "musicbrainz": {
+        "id": "772aab88-7361-4a09-b09e-c8272625c153",
+        "title": "Closer Than This",
+        "first-release-date": "2023-12-22"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:21.455222+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/772aab88-7361-4a09-b09e-c8272625c153?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/772aab88-7361-4a09-b09e-c8272625c153/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Billie Eilish",
+        "track_name": "bad guy",
+        "recording_mbid": "694da04d-1ffc-435c-8b4b-59cc23ac8003",
+        "listen_count": 1425
+      },
+      "musicbrainz": {
+        "id": "694da04d-1ffc-435c-8b4b-59cc23ac8003",
+        "title": "bad guy",
+        "first-release-date": "2019-03-29"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 135.103179932
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 795.447875977
+          },
+          "average_loudness": 0.909399747849
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:23.825710+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/694da04d-1ffc-435c-8b4b-59cc23ac8003?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/694da04d-1ffc-435c-8b4b-59cc23ac8003/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Dexter and The Moonrocks",
+        "track_name": "Freakin\u2019 Out",
+        "recording_mbid": "ce4d0fa8-64a9-493f-8a27-a247df9939ef",
+        "listen_count": 1416
+      },
+      "musicbrainz": {
+        "id": "ce4d0fa8-64a9-493f-8a27-a247df9939ef",
+        "title": "Freakin\u2019 Out",
+        "first-release-date": "2026-03-11"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:25.818632+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/ce4d0fa8-64a9-493f-8a27-a247df9939ef?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/ce4d0fa8-64a9-493f-8a27-a247df9939ef/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Toto",
+        "track_name": "Hold the Line",
+        "recording_mbid": "2b24d74a-28c0-4908-a62c-747c2eaaa4ef",
+        "listen_count": 1403
+      },
+      "musicbrainz": {
+        "id": "2b24d74a-28c0-4908-a62c-747c2eaaa4ef",
+        "title": "Hold the Line",
+        "first-release-date": "1978-10-10"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 96.0545501709
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1813.73022461
+          },
+          "average_loudness": 0.887079179287
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:28.557883+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/2b24d74a-28c0-4908-a62c-747c2eaaa4ef?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/2b24d74a-28c0-4908-a62c-747c2eaaa4ef/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "femtanyl",
+        "track_name": "GIRL HELL 1999",
+        "recording_mbid": "38c9d6c4-11ba-45dd-9ca6-6b9f756478e4",
+        "listen_count": 1395
+      },
+      "musicbrainz": {
+        "id": "38c9d6c4-11ba-45dd-9ca6-6b9f756478e4",
+        "title": "GIRL HELL 1999",
+        "first-release-date": "2023-08-25"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:30.895071+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/38c9d6c4-11ba-45dd-9ca6-6b9f756478e4?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/38c9d6c4-11ba-45dd-9ca6-6b9f756478e4/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Tool",
+        "track_name": "Schism",
+        "recording_mbid": "865f015e-0ecf-4af5-b019-9edf16ea21c5",
+        "listen_count": 1385
+      },
+      "musicbrainz": {
+        "id": "865f015e-0ecf-4af5-b019-9edf16ea21c5",
+        "title": "Schism",
+        "first-release-date": "2001-05-14"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 108.005210876
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1558.54199219
+          },
+          "average_loudness": 0.624157369137
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:33.772666+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/865f015e-0ecf-4af5-b019-9edf16ea21c5?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/865f015e-0ecf-4af5-b019-9edf16ea21c5/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "2hollis",
+        "track_name": "poster boy",
+        "recording_mbid": "70538e95-2d73-4928-9688-06f357409d42",
+        "listen_count": 1375
+      },
+      "musicbrainz": {
+        "id": "70538e95-2d73-4928-9688-06f357409d42",
+        "title": "poster boy",
+        "first-release-date": "2023-04-11"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:39.309640+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/70538e95-2d73-4928-9688-06f357409d42?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/70538e95-2d73-4928-9688-06f357409d42/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "The Mar\u00edas",
+        "track_name": "Sienna",
+        "recording_mbid": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+        "listen_count": 1363
+      },
+      "musicbrainz": {
+        "id": "f3db7473-3a61-4053-a7ce-a8fe29dbe5fa",
+        "title": "Sienna",
+        "first-release-date": "2024-05-31"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:41.383509+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/f3db7473-3a61-4053-a7ce-a8fe29dbe5fa?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/f3db7473-3a61-4053-a7ce-a8fe29dbe5fa/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Interpol",
+        "track_name": "This Mirror Weighs a Ton",
+        "recording_mbid": "294f82b6-5955-48dd-9d88-b3b8bf769aae",
+        "listen_count": 1353
+      },
+      "musicbrainz": {
+        "id": "0b4e8326-8284-4c73-a376-8cef3fb807f8",
+        "title": "This Mirror Weighs a Ton",
+        "first-release-date": "2026-06-09"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:43.482095+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/294f82b6-5955-48dd-9d88-b3b8bf769aae?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/294f82b6-5955-48dd-9d88-b3b8bf769aae/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Adele",
+        "track_name": "Rolling in the Deep",
+        "recording_mbid": "1a13c710-4b7e-4701-8968-cd61f2e58110",
+        "listen_count": 1347
+      },
+      "musicbrainz": {
+        "id": "1a13c710-4b7e-4701-8968-cd61f2e58110",
+        "title": "Rolling in the Deep",
+        "first-release-date": "2010-10-21"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 104.867263794
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1262.55578613
+          },
+          "average_loudness": 0.523566663265
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:45.830192+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/1a13c710-4b7e-4701-8968-cd61f2e58110?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/1a13c710-4b7e-4701-8968-cd61f2e58110/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Katy Perry",
+        "track_name": "Last Friday Night (T.G.I.F.)",
+        "recording_mbid": "a2b6d3f6-2ab5-4522-9a40-e589fb8f6e02",
+        "listen_count": 1336
+      },
+      "musicbrainz": {
+        "id": "a2b6d3f6-2ab5-4522-9a40-e589fb8f6e02",
+        "title": "Last Friday Night (T.G.I.F.)",
+        "first-release-date": "2010-08-24"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 126.001495361
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1683.19458008
+          },
+          "average_loudness": 0.946851909161
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:48.200076+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/a2b6d3f6-2ab5-4522-9a40-e589fb8f6e02?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/a2b6d3f6-2ab5-4522-9a40-e589fb8f6e02/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "My Chemical Romance",
+        "track_name": "The Sharpest Lives",
+        "recording_mbid": "bc25529c-ea16-46cb-8bb5-792b10ecf5a2",
+        "listen_count": 1330
+      },
+      "musicbrainz": {
+        "id": "bc25529c-ea16-46cb-8bb5-792b10ecf5a2",
+        "title": "The Sharpest Lives",
+        "first-release-date": "2006-10-20"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": 154.942977905
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": 1828.52331543
+          },
+          "average_loudness": 0.953630805016
+        },
+        "error": null,
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:51.472895+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/bc25529c-ea16-46cb-8bb5-792b10ecf5a2?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/bc25529c-ea16-46cb-8bb5-792b10ecf5a2/low-level"
+    },
+    {
+      "recording": {
+        "artist_name": "Carly Rae Jepsen",
+        "track_name": "Blue Skies",
+        "recording_mbid": "17fa9ab9-8875-4cfa-8d16-66d3a30d1c67",
+        "listen_count": 1324
+      },
+      "musicbrainz": {
+        "id": "17fa9ab9-8875-4cfa-8d16-66d3a30d1c67",
+        "title": "Blue Skies",
+        "first-release-date": "2026-09-18"
+      },
+      "acousticbrainz": {
+        "rhythm": {
+          "bpm": null
+        },
+        "lowlevel": {
+          "spectral_centroid": {
+            "mean": null
+          },
+          "average_loudness": null
+        },
+        "error": "curl: (56) The requested URL returned error: 404",
+        "message": null
+      },
+      "retrievedAt": "2026-11-10T17:53:53.686385+00:00",
+      "musicbrainzUrl": "https://musicbrainz.org/ws/2/recording/17fa9ab9-8875-4cfa-8d16-66d3a30d1c67?fmt=json",
+      "acousticbrainzUrl": "https://acousticbrainz.org/api/v1/17fa9ab9-8875-4cfa-8d16-66d3a30d1c67/low-level"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 **[Visit the homepage](https://gabrielcirker.github.io/)**
 
-A personal, responsive portfolio for school projects, research, and passion projects. The first selected work connects the public rowing, bridge, and MATH 463 projects. The portfolio pages use HTML and CSS with no third-party fonts, tracking, package dependencies, or build step. The Spotify report is a self-contained Quarto HTML document with embedded JavaScript for local search, sorting, and report navigation; it loads no external assets.
+A personal, responsive portfolio for school projects, research, and passion projects. The first selected work connects the public rowing, bridge, and MATH 463 projects. The portfolio pages use HTML and CSS with no third-party fonts, tracking, package dependencies, or build step. The Spotify Listening Lab uses static HTML/CSS/JavaScript and public aggregate JSON for interactive experiments. The preserved title-study chapter is a self-contained Quarto HTML document; neither loads external assets or calls third-party APIs in the browser.
 
 ## Public projects
 
@@ -14,7 +14,7 @@ A personal, responsive portfolio for school projects, research, and passion proj
 
 - [Desktop in Stereo](https://gabrielcirker.github.io/desktop-widgets/): a music-led, interactive widget walkthrough. Fictional scenes, original CSS art, vetted short code excerpts, API explanations, and clear native-runtime limitations. No live account integration or private runtime data.
 
-- [Spotify Title Lab](https://gabrielcirker.github.io/spotify-title-lab/): a public aggregate report with six charts and an interactive 279-word lexicon. The original export and individual listening records are not included.
+- [Spotify Listening Lab](https://gabrielcirker.github.io/spotify-title-lab/): interactive experiments in song lifecycles, playlist overlap, community comparison, release history, chronological prediction, and acoustic features. The original six-chart title study and 279-word lexicon are preserved. [Reproducible source](analysis/spotify/README.md). The original export and individual listening records are not published.
 - [Side Projects](https://gabrielcirker.github.io/side-projects.html): the portfolio entry point for personal experiments.
 
 ## Structure
@@ -25,7 +25,7 @@ A personal, responsive portfolio for school projects, research, and passion proj
 - `docs/resume.html`: Resume & CV tab with PDF view and download links
 - `docs/assets/documents/`: reviewed public resume and CV PDFs
 - `docs/side-projects.html`: side-project index with the Spotify project blurb
-- `docs/spotify-title-lab/index.html`: self-contained public Spotify report
+- `docs/spotify-title-lab/index.html`: interactive Spotify Listening Lab; `title-analysis.html` preserves the original report
 - `docs/desktop-widgets/index.html`: self-contained creative widget showcase with local JavaScript interactions
 - `docs/styles.css`: responsive layout, accessibility, and print styles
 - `docs/assets/`: original project figures and favicon; provenance in `SOURCES.md`
@@ -60,12 +60,12 @@ Add a research summary to `docs/research.html` and a concise visual card to `doc
 
 ## Page navigation and design
 
-Primary navigation links to distinct pages or approved external profiles. Research summaries live on a dedicated Research page; long report contents and widget tools are separately labeled inside their pages. Keep headings concise, allow whitespace between sections, and preserve the versioned stylesheet URL when updating layout. The Spotify report’s research prose, six embedded figures, lexicon data and scripts are unchanged by the presentation redesign. Original PDFs, the approved portrait, and the standalone widget illustration retain their verified bytes.
+Primary navigation links to distinct pages or approved external profiles. Research summaries live on a dedicated Research page; long report contents and widget tools are separately labeled inside their pages. Keep headings concise, allow whitespace between sections, and preserve the versioned stylesheet URL when updating layout. The original Spotify title chapter retains its research prose, six embedded figures, lexicon data and scripts. New listening experiments have separate aggregate data and reproducible source. Original PDFs, the approved portrait, and the standalone widget illustration retain their verified bytes.
 
 The core portfolio uses a persistent outline on the left on wide screens, with the same hierarchy in a native, keyboard-accessible Explore disclosure on smaller screens. All entries open pages or approved external profiles; none are section-jump tabs. Active pages are marked with `aria-current`. The Spotify report and widget walkthrough keep their project-specific navigation and separately labeled in-page tools.
 
 ## Standalone project sites
 
-The portfolio is a directory, not a wrapper around the projects. All five projects open at their own directly shareable URLs. Spotify Title Lab and Desktop in Stereo have project-specific branding and a Copy project link control; their report/walkthrough navigation stays inside the project. The personal portfolio is a secondary author link. The research projects are already independent GitHub Pages sites with their own repositories.
+The portfolio is a directory, not a wrapper around the projects. All five projects open at their own directly shareable URLs. Spotify Listening Lab and Desktop in Stereo have project-specific branding and a Copy project link control; their report/walkthrough navigation stays inside the project. The personal portfolio is a secondary author link. The research projects are already independent GitHub Pages sites with their own repositories.
 
-Spotify Title Lab is served at `/spotify-title-lab/`. The old `/projects/spotify-title-lab/` URL redirects while preserving the query string and section fragment. Keep that compatibility redirect. Neither a new domain nor a separate repository is required to share one of these static project websites. No private source or raw listening records are published.
+Spotify Listening Lab is served at `/spotify-title-lab/`. The old `/projects/spotify-title-lab/` URL redirects while preserving the query string and section fragment. Keep that compatibility redirect. Neither a new domain nor a separate repository is required to share one of these static project websites. No private source or raw listening records are published.

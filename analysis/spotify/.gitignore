@@ -1,0 +1,5 @@
+cache/
+private/
+*.rds
+.Rhistory
+.RData

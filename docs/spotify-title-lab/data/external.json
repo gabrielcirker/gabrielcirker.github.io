@@ -1,0 +1,2963 @@
+{
+  "schemaVersion": 1,
+  "filters": {
+    "minimumMs": 30000,
+    "rawEvents": 55643,
+    "eligibleEvents": 44091,
+    "excludedEvents": 11552,
+    "communityWindowEvents": 7123,
+    "timestampConvention": "Export timestamps treated as UTC; Spotify export does not state timezone"
+  },
+  "generatedAt": "2026-11-10T17:54:28Z",
+  "sources": [
+    {
+      "name": "ListenBrainz global monthly artists",
+      "url": "https://api.listenbrainz.org/1/stats/sitewide/artists?range=month&count=1000",
+      "retrievedAt": "2026-11-10T17:47:58.089628+00:00",
+      "sha256": "8dbee3d416b7df67175ab141da95730e643176c1d2a4bcd05107a8f313944b7a",
+      "license": "CC0 listening data"
+    },
+    {
+      "name": "ListenBrainz global monthly recordings",
+      "url": "https://api.listenbrainz.org/1/stats/sitewide/recordings?range=month&count=1000",
+      "retrievedAt": "2026-11-10T17:47:59.240741+00:00",
+      "sha256": "01a222c45466963f93310b4cf685300ab64c4d2b810f51179482250106bf5bec",
+      "license": "CC0 listening data"
+    },
+    {
+      "name": "MusicBrainz recording catalog",
+      "url": "https://musicbrainz.org/doc/Recording",
+      "license": "CC0 core data",
+      "retrievedAt": "2026-11-10T17:49:15.687921+00:00"
+    },
+    {
+      "name": "AcousticBrainz audio descriptors",
+      "url": "https://acousticbrainz.org/",
+      "license": "CC0",
+      "retrievedAt": "2026-11-10T17:49:15.687921+00:00"
+    }
+  ],
+  "community": {
+    "status": "available",
+    "window": {
+      "from": "2026-09-01",
+      "to": "2026-10-01"
+    },
+    "coverage": {
+      "matchedArtists": 257,
+      "totalArtists": 965,
+      "matchedPlays": 4131,
+      "totalPlays": 7123,
+      "playPercent": 57.99522673031
+    },
+    "rows": [
+      {
+        "artist": "Kanye West",
+        "userPlays": 337,
+        "communityPlays": 5724,
+        "userShare": 0.08157831033648,
+        "communityShare": 0.001504147837446,
+        "lift": 54.235566681401,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Oasis",
+        "userPlays": 330,
+        "communityPlays": 18887,
+        "userShare": 0.079883805374,
+        "communityShare": 0.004963109749448,
+        "lift": 16.095514587983,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Drake",
+        "userPlays": 144,
+        "communityPlays": 43042,
+        "userShare": 0.03485838779956,
+        "communityShare": 0.01131054004531,
+        "lift": 3.081938409654,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "A$AP Rocky",
+        "userPlays": 128,
+        "communityPlays": 15734,
+        "userShare": 0.03098523359961,
+        "communityShare": 0.004134567098947,
+        "lift": 7.49419053025,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "userPlays": 105,
+        "communityPlays": 57000,
+        "userShare": 0.02541757443718,
+        "communityShare": 0.01497841137918,
+        "lift": 1.696947279237,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "J. Cole",
+        "userPlays": 102,
+        "communityPlays": 20435,
+        "userShare": 0.02469135802469,
+        "communityShare": 0.005369891869009,
+        "lift": 4.598110842267,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Red Hot Chili Peppers",
+        "userPlays": 85,
+        "communityPlays": 32106,
+        "userShare": 0.02057613168724,
+        "communityShare": 0.008436787293682,
+        "lift": 2.438858652114,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "JAŸ-Z",
+        "userPlays": 81,
+        "communityPlays": 15335,
+        "userShare": 0.01960784313725,
+        "communityShare": 0.004029718219293,
+        "lift": 4.865809982291,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Mac Miller",
+        "userPlays": 72,
+        "communityPlays": 18211,
+        "userShare": 0.01742919389978,
+        "communityShare": 0.004785471046074,
+        "lift": 3.642106227783,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Noah Kahan",
+        "userPlays": 65,
+        "communityPlays": 16510,
+        "userShare": 0.0157346889373,
+        "communityShare": 0.004338483717022,
+        "lift": 3.626771462935,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Nas",
+        "userPlays": 59,
+        "communityPlays": 8811,
+        "userShare": 0.01428225611232,
+        "communityShare": 0.002315347064245,
+        "lift": 6.168516302752,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lynyrd Skynyrd",
+        "userPlays": 57,
+        "communityPlays": 5874,
+        "userShare": 0.01379811183733,
+        "communityShare": 0.001543564709496,
+        "lift": 8.939121082802,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Freddie Gibbs",
+        "userPlays": 56,
+        "communityPlays": 6324,
+        "userShare": 0.01355603969983,
+        "communityShare": 0.001661815325648,
+        "lift": 8.157368325236,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Joey Bada$$",
+        "userPlays": 52,
+        "communityPlays": 4027,
+        "userShare": 0.01258775114984,
+        "communityShare": 0.001058211624982,
+        "lift": 11.895306054743,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Amy Winehouse",
+        "userPlays": 50,
+        "communityPlays": 7580,
+        "userShare": 0.01210360687485,
+        "communityShare": 0.001991865934284,
+        "lift": 6.076516831039,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Westside Gunn",
+        "userPlays": 50,
+        "communityPlays": 5015,
+        "userShare": 0.01210360687485,
+        "communityShare": 0.001317837422221,
+        "lift": 9.184446177324,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lizzy McAlpine",
+        "userPlays": 49,
+        "communityPlays": 7128,
+        "userShare": 0.01186153473735,
+        "communityShare": 0.001873089759838,
+        "lift": 6.332603483122,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Pearl Jam",
+        "userPlays": 48,
+        "communityPlays": 18975,
+        "userShare": 0.01161946259985,
+        "communityShare": 0.004986234314384,
+        "lift": 2.330308177924,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Fleetwood Mac",
+        "userPlays": 46,
+        "communityPlays": 25177,
+        "userShare": 0.01113531832486,
+        "communityShare": 0.006615990584098,
+        "lift": 1.683091622232,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Billy Joel",
+        "userPlays": 45,
+        "communityPlays": 13091,
+        "userShare": 0.01089324618736,
+        "communityShare": 0.003440041813418,
+        "lift": 3.166602843278,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lupe Fiasco",
+        "userPlays": 42,
+        "communityPlays": 5539,
+        "userShare": 0.01016702977487,
+        "communityShare": 0.00145553369525,
+        "lift": 6.985087193825,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Rolling Stones",
+        "userPlays": 42,
+        "communityPlays": 23036,
+        "userShare": 0.01016702977487,
+        "communityShare": 0.006053380430364,
+        "lift": 1.679562335761,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Future",
+        "userPlays": 38,
+        "communityPlays": 23662,
+        "userShare": 0.009198741224885,
+        "communityShare": 0.006217880176388,
+        "lift": 1.47940149439,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Green Day",
+        "userPlays": 38,
+        "communityPlays": 40462,
+        "userShare": 0.009198741224885,
+        "communityShare": 0.01063256984604,
+        "lift": 0.8651475003769,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Frank Ocean",
+        "userPlays": 37,
+        "communityPlays": 23366,
+        "userShare": 0.008956669087388,
+        "communityShare": 0.006140097548875,
+        "lift": 1.458717718423,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Zach Bryan",
+        "userPlays": 37,
+        "communityPlays": 6352,
+        "userShare": 0.008956669087388,
+        "communityShare": 0.001669173141764,
+        "lift": 5.365931707913,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "userPlays": 35,
+        "communityPlays": 36561,
+        "userShare": 0.008472524812394,
+        "communityShare": 0.009607468393581,
+        "lift": 0.8818686115121,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Tyler, The Creator",
+        "userPlays": 34,
+        "communityPlays": 34488,
+        "userShare": 0.008230452674897,
+        "communityShare": 0.009062727221844,
+        "lift": 0.9081651111665,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Jack Harlow",
+        "userPlays": 33,
+        "communityPlays": 25963,
+        "userShare": 0.0079883805374,
+        "communityShare": 0.006822534993642,
+        "lift": 1.170881577719,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lil Wayne",
+        "userPlays": 32,
+        "communityPlays": 13547,
+        "userShare": 0.007746308399903,
+        "communityShare": 0.003559869104451,
+        "lift": 2.176009334224,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Foo Fighters",
+        "userPlays": 31,
+        "communityPlays": 22866,
+        "userShare": 0.007504236262406,
+        "communityShare": 0.006008707975373,
+        "lift": 1.248893488111,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Pusha T",
+        "userPlays": 30,
+        "communityPlays": 5006,
+        "userShare": 0.007262164124909,
+        "communityShare": 0.001315472409898,
+        "lift": 5.52057501949,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Childish Gambino",
+        "userPlays": 29,
+        "communityPlays": 14225,
+        "userShare": 0.007020091987412,
+        "communityShare": 0.003738033366119,
+        "lift": 1.878017475992,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Travis Scott",
+        "userPlays": 29,
+        "communityPlays": 28200,
+        "userShare": 0.007020091987412,
+        "communityShare": 0.007410371945488,
+        "lift": 0.9473332835454,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Dire Straits",
+        "userPlays": 26,
+        "communityPlays": 15449,
+        "userShare": 0.006293875574921,
+        "communityShare": 0.004059675042051,
+        "lift": 1.550339746341,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Gunna",
+        "userPlays": 26,
+        "communityPlays": 8974,
+        "userShare": 0.006293875574921,
+        "communityShare": 0.002358180065206,
+        "lift": 2.668954617921,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Led Zeppelin",
+        "userPlays": 26,
+        "communityPlays": 21396,
+        "userShare": 0.006293875574921,
+        "communityShare": 0.005622422629279,
+        "lift": 1.119424132605,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Olivia Rodrigo",
+        "userPlays": 26,
+        "communityPlays": 50934,
+        "userShare": 0.006293875574921,
+        "communityShare": 0.01338439307346,
+        "lift": 0.4702398936118,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Radiohead",
+        "userPlays": 26,
+        "communityPlays": 84012,
+        "userShare": 0.006293875574921,
+        "communityShare": 0.02207660169803,
+        "lift": 0.2850925908349,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Dominic Fike",
+        "userPlays": 25,
+        "communityPlays": 11539,
+        "userShare": 0.006051803437424,
+        "communityShare": 0.003032208577269,
+        "lift": 1.995840089231,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Eagles",
+        "userPlays": 24,
+        "communityPlays": 7987,
+        "userShare": 0.005809731299927,
+        "communityShare": 0.002098817047114,
+        "lift": 2.76809801403,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Killers",
+        "userPlays": 24,
+        "communityPlays": 16041,
+        "userShare": 0.005809731299927,
+        "communityShare": 0.004215240297077,
+        "lift": 1.378268115333,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Baby Keem",
+        "userPlays": 23,
+        "communityPlays": 9448,
+        "userShare": 0.00556765916243,
+        "communityShare": 0.002482737380885,
+        "lift": 2.242548569694,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "50 Cent",
+        "userPlays": 22,
+        "communityPlays": 9369,
+        "userShare": 0.005325587024933,
+        "communityShare": 0.002461977828272,
+        "lift": 2.163133625241,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "MF DOOM",
+        "userPlays": 22,
+        "communityPlays": 11468,
+        "userShare": 0.005325587024933,
+        "communityShare": 0.003013551257832,
+        "lift": 1.767213021877,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Sublime",
+        "userPlays": 22,
+        "communityPlays": 6631,
+        "userShare": 0.005325587024933,
+        "communityShare": 0.001742488523778,
+        "lift": 3.056311104642,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Adele",
+        "userPlays": 21,
+        "communityPlays": 13657,
+        "userShare": 0.005083514887436,
+        "communityShare": 0.003588774810622,
+        "lift": 1.416504282295,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Elton John",
+        "userPlays": 21,
+        "communityPlays": 15456,
+        "userShare": 0.005083514887436,
+        "communityShare": 0.00406151449608,
+        "lift": 1.251630369002,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Kid Cudi",
+        "userPlays": 21,
+        "communityPlays": 11397,
+        "userShare": 0.005083514887436,
+        "communityShare": 0.002994893938395,
+        "lift": 1.697393961858,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Strokes",
+        "userPlays": 21,
+        "communityPlays": 33205,
+        "userShare": 0.005083514887436,
+        "communityShare": 0.008725581576239,
+        "lift": 0.5825989755548,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Kodak Black",
+        "userPlays": 20,
+        "communityPlays": 4989,
+        "userShare": 0.004841442749939,
+        "communityShare": 0.001311005164399,
+        "lift": 3.69292423967,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Beatles",
+        "userPlays": 20,
+        "communityPlays": 64495,
+        "userShare": 0.004841442749939,
+        "communityShare": 0.01694794108597,
+        "lift": 0.285665540456,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "beabadoobee",
+        "userPlays": 19,
+        "communityPlays": 25983,
+        "userShare": 0.004599370612443,
+        "communityShare": 0.006827790576582,
+        "lift": 0.673625027138,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Coldplay",
+        "userPlays": 19,
+        "communityPlays": 34830,
+        "userShare": 0.004599370612443,
+        "communityShare": 0.009152597690119,
+        "lift": 0.5025207889786,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lana Del Rey",
+        "userPlays": 19,
+        "communityPlays": 28866,
+        "userShare": 0.004599370612443,
+        "communityShare": 0.007585382857392,
+        "lift": 0.6063465350283,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Cranberries",
+        "userPlays": 19,
+        "communityPlays": 12268,
+        "userShare": 0.004599370612443,
+        "communityShare": 0.003223774575434,
+        "lift": 1.42670354419,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Aerosmith",
+        "userPlays": 18,
+        "communityPlays": 8800,
+        "userShare": 0.004357298474946,
+        "communityShare": 0.002312456493627,
+        "lift": 1.884272628243,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bob Dylan",
+        "userPlays": 18,
+        "communityPlays": 16062,
+        "userShare": 0.004357298474946,
+        "communityShare": 0.004220758659164,
+        "lift": 1.032349590869,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Denzel Curry",
+        "userPlays": 18,
+        "communityPlays": 13073,
+        "userShare": 0.004357298474946,
+        "communityShare": 0.003435311788772,
+        "lift": 1.268385154788,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Isaiah Rashad",
+        "userPlays": 18,
+        "communityPlays": 4608,
+        "userShare": 0.004357298474946,
+        "communityShare": 0.00121088630939,
+        "lift": 3.598437310881,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Metro Boomin",
+        "userPlays": 18,
+        "communityPlays": 10940,
+        "userShare": 0.004357298474946,
+        "communityShare": 0.002874803868214,
+        "lift": 1.515685477929,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "21 Savage",
+        "userPlays": 17,
+        "communityPlays": 9865,
+        "userShare": 0.004115226337449,
+        "communityShare": 0.002592316285186,
+        "lift": 1.587470773133,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Rex Orange County",
+        "userPlays": 17,
+        "communityPlays": 4974,
+        "userShare": 0.004115226337449,
+        "communityShare": 0.001307063477194,
+        "lift": 3.148451784671,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Alchemist",
+        "userPlays": 17,
+        "communityPlays": 7768,
+        "userShare": 0.004115226337449,
+        "communityShare": 0.00204126841392,
+        "lift": 2.016014312172,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "U2",
+        "userPlays": 17,
+        "communityPlays": 15234,
+        "userShare": 0.004115226337449,
+        "communityShare": 0.004003177525446,
+        "lift": 1.027989968292,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "2Pac",
+        "userPlays": 16,
+        "communityPlays": 9993,
+        "userShare": 0.003873154199952,
+        "communityShare": 0.002625952016002,
+        "lift": 1.474952389209,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "JID",
+        "userPlays": 16,
+        "communityPlays": 7799,
+        "userShare": 0.003873154199952,
+        "communityShare": 0.002049414567477,
+        "lift": 1.88988321905,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Pharrell Williams",
+        "userPlays": 16,
+        "communityPlays": 7480,
+        "userShare": 0.003873154199952,
+        "communityShare": 0.001965588019583,
+        "lift": 1.970481179862,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Post Malone",
+        "userPlays": 16,
+        "communityPlays": 19109,
+        "userShare": 0.003873154199952,
+        "communityShare": 0.005021446720083,
+        "lift": 0.7713223729849,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Notorious B.I.G.",
+        "userPlays": 16,
+        "communityPlays": 6160,
+        "userShare": 0.003873154199952,
+        "communityShare": 0.001618719545539,
+        "lift": 2.392727146976,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Cage The Elephant",
+        "userPlays": 15,
+        "communityPlays": 9118,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.002396020262374,
+        "lift": 1.515463837879,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Hozier",
+        "userPlays": 15,
+        "communityPlays": 12429,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.003266082018102,
+        "lift": 1.111754708648,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Nirvana",
+        "userPlays": 15,
+        "communityPlays": 39485,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.01037583461942,
+        "lift": 0.3499556609797,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Paul McCartney",
+        "userPlays": 15,
+        "communityPlays": 6624,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.001740649069749,
+        "lift": 2.086050615004,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Stone Temple Pilots",
+        "userPlays": 15,
+        "communityPlays": 7630,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.002005004891634,
+        "lift": 1.811009079133,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Verve",
+        "userPlays": 15,
+        "communityPlays": 4184,
+        "userShare": 0.003631082062455,
+        "communityShare": 0.001099467951061,
+        "lift": 3.30258108838,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Blur",
+        "userPlays": 14,
+        "communityPlays": 11090,
+        "userShare": 0.003389009924958,
+        "communityShare": 0.002914220740265,
+        "lift": 1.162921489828,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lil Yachty",
+        "userPlays": 14,
+        "communityPlays": 4577,
+        "userShare": 0.003389009924958,
+        "communityShare": 0.001202740155833,
+        "lift": 2.817740730216,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Police",
+        "userPlays": 14,
+        "communityPlays": 9106,
+        "userShare": 0.003389009924958,
+        "communityShare": 0.00239286691261,
+        "lift": 1.416296872633,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Smashing Pumpkins",
+        "userPlays": 14,
+        "communityPlays": 19257,
+        "userShare": 0.003389009924958,
+        "communityShare": 0.005060338033839,
+        "lift": 0.6697200665835,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bon Iver",
+        "userPlays": 13,
+        "communityPlays": 10078,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.002648288243497,
+        "lift": 1.188291265193,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Creedence Clearwater Revival",
+        "userPlays": 13,
+        "communityPlays": 11932,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.003135480782041,
+        "lift": 1.00365398681,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Outkast",
+        "userPlays": 13,
+        "communityPlays": 10246,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.002692435140194,
+        "lift": 1.168807278022,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "R.E.M.",
+        "userPlays": 13,
+        "communityPlays": 14731,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.003870999614503,
+        "lift": 0.8129522347846,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "SZA",
+        "userPlays": 13,
+        "communityPlays": 16747,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.004400762374861,
+        "lift": 0.7150892321378,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Lumineers",
+        "userPlays": 13,
+        "communityPlays": 4103,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.001078182840154,
+        "lift": 2.918742230225,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Smiths",
+        "userPlays": 13,
+        "communityPlays": 17276,
+        "userShare": 0.003146937787461,
+        "communityShare": 0.004539772543626,
+        "lift": 0.6931928322883,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Logic",
+        "userPlays": 12,
+        "communityPlays": 7471,
+        "userShare": 0.002904865649964,
+        "communityShare": 0.00196322300726,
+        "lift": 1.479641201851,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Young Thug",
+        "userPlays": 12,
+        "communityPlays": 10795,
+        "userShare": 0.002904865649964,
+        "communityShare": 0.002836700891899,
+        "lift": 1.024029589535,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Brent Faiyaz",
+        "userPlays": 11,
+        "communityPlays": 5681,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.001492848334125,
+        "lift": 1.783699959064,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bruno Mars",
+        "userPlays": 11,
+        "communityPlays": 21573,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.005668934538298,
+        "lift": 0.4697167509128,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Malcolm Todd",
+        "userPlays": 11,
+        "communityPlays": 15812,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.004155063872413,
+        "lift": 0.6408550131192,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "PARTYNEXTDOOR",
+        "userPlays": 11,
+        "communityPlays": 8493,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.002231783295498,
+        "lift": 1.193123686264,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Phoebe Bridgers",
+        "userPlays": 11,
+        "communityPlays": 26632,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.006998334242987,
+        "lift": 0.3804896165305,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Trippie Redd",
+        "userPlays": 11,
+        "communityPlays": 5582,
+        "userShare": 0.002662793512467,
+        "communityShare": 0.001466833198571,
+        "lift": 1.815334909968,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "America",
+        "userPlays": 10,
+        "communityPlays": 5099,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.001339910870569,
+        "lift": 1.806628655787,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bob Marley & The Wailers",
+        "userPlays": 10,
+        "communityPlays": 9522,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.002502183037764,
+        "lift": 0.9674437634799,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Nujabes",
+        "userPlays": 10,
+        "communityPlays": 10684,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.002807532406581,
+        "lift": 0.8622238408701,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Steely Dan",
+        "userPlays": 10,
+        "communityPlays": 12565,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.003301819982094,
+        "lift": 0.7331475937808,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Tom Petty and the Heartbreakers",
+        "userPlays": 10,
+        "communityPlays": 3948,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.001037452072368,
+        "lift": 2.333333210703,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Vince Staples",
+        "userPlays": 10,
+        "communityPlays": 8411,
+        "userShare": 0.00242072137497,
+        "communityShare": 0.002210235405443,
+        "lift": 1.095232376157,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Daryl Hall & John Oates",
+        "userPlays": 9,
+        "communityPlays": 7045,
+        "userShare": 0.002178649237473,
+        "communityShare": 0.001851279090637,
+        "lift": 1.176834572643,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Jack Johnson",
+        "userPlays": 9,
+        "communityPlays": 6209,
+        "userShare": 0.002178649237473,
+        "communityShare": 0.001631595723742,
+        "lift": 1.33528741573,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Snoop Dogg",
+        "userPlays": 9,
+        "communityPlays": 10345,
+        "userShare": 0.002178649237473,
+        "communityShare": 0.002718450275747,
+        "lift": 0.8014306007028,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Steve Lacy",
+        "userPlays": 9,
+        "communityPlays": 17048,
+        "userShare": 0.002178649237473,
+        "communityShare": 0.004479858898109,
+        "lift": 0.4863209505086,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Tory Lanez",
+        "userPlays": 9,
+        "communityPlays": 5296,
+        "userShare": 0.002178649237473,
+        "communityShare": 0.001391678362529,
+        "lift": 1.565483301411,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "A Tribe Called Quest",
+        "userPlays": 8,
+        "communityPlays": 7618,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.00200185154187,
+        "lift": 0.9673929656976,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Creed",
+        "userPlays": 8,
+        "communityPlays": 5990,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.001574047090549,
+        "lift": 1.230317130665,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "David Bowie",
+        "userPlays": 8,
+        "communityPlays": 26773,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.007035386102715,
+        "lift": 0.2752623767484,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ed Sheeran",
+        "userPlays": 8,
+        "communityPlays": 19596,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.005149420164673,
+        "lift": 0.3760767305922,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Elvis Presley",
+        "userPlays": 8,
+        "communityPlays": 7662,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.002013413824338,
+        "lift": 0.9618375897526,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Kings of Leon",
+        "userPlays": 8,
+        "communityPlays": 7744,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.002034961714392,
+        "lift": 0.9516528425471,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Madvillain",
+        "userPlays": 8,
+        "communityPlays": 6864,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.001803716065029,
+        "lift": 1.073659617233,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Olivia Dean",
+        "userPlays": 8,
+        "communityPlays": 11394,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.002994105600954,
+        "lift": 0.6467965255998,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Playboi Carti",
+        "userPlays": 8,
+        "communityPlays": 23402,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.006149557598167,
+        "lift": 0.3149132387268,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Black Keys",
+        "userPlays": 8,
+        "communityPlays": 10123,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.002660113305113,
+        "lift": 0.728005493696,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Thundercat",
+        "userPlays": 8,
+        "communityPlays": 6039,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.001586923268752,
+        "lift": 1.22033442833,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "WILLOW",
+        "userPlays": 8,
+        "communityPlays": 3963,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.001041393759573,
+        "lift": 1.859601214404,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Yeat",
+        "userPlays": 8,
+        "communityPlays": 19895,
+        "userShare": 0.001936577099976,
+        "communityShare": 0.005227991129627,
+        "lift": 0.3704247103636,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Alice In Chains",
+        "userPlays": 7,
+        "communityPlays": 18637,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.004897414962697,
+        "lift": 0.3459998745023,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bryan Adams",
+        "userPlays": 7,
+        "communityPlays": 5119,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.001345166453509,
+        "lift": 1.259699093788,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Calvin Harris",
+        "userPlays": 7,
+        "communityPlays": 11763,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.003091071106198,
+        "lift": 0.548193459245,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Counting Crows",
+        "userPlays": 7,
+        "communityPlays": 4248,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.001116285816469,
+        "lift": 1.517984854308,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Daniel Caesar",
+        "userPlays": 7,
+        "communityPlays": 11939,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.00313732023607,
+        "lift": 0.5401122088198,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Don Toliver",
+        "userPlays": 7,
+        "communityPlays": 20928,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.005499441988481,
+        "lift": 0.3081230724914,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Fred again..",
+        "userPlays": 7,
+        "communityPlays": 14880,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.003910153707406,
+        "lift": 0.4333601922782,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Harry Styles",
+        "userPlays": 7,
+        "communityPlays": 14712,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.00386600681071,
+        "lift": 0.4383088404771,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Jin",
+        "userPlays": 7,
+        "communityPlays": 133127,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.03498299950308,
+        "lift": 0.04843795519391,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Two Door Cinema Club",
+        "userPlays": 7,
+        "communityPlays": 7019,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.001844446832815,
+        "lift": 0.9187063201452,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Van Morrison",
+        "userPlays": 7,
+        "communityPlays": 4680,
+        "userShare": 0.001694504962479,
+        "communityShare": 0.001229806407975,
+        "lift": 1.377863175449,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bruce Springsteen",
+        "userPlays": 6,
+        "communityPlays": 11324,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.002975711060663,
+        "lift": 0.4880960534717,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Clairo",
+        "userPlays": 6,
+        "communityPlays": 14533,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.003818969343396,
+        "lift": 0.3803206295681,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Empire Of The Sun",
+        "userPlays": 6,
+        "communityPlays": 7277,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.001912243852742,
+        "lift": 0.7595437281178,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "George Harrison",
+        "userPlays": 6,
+        "communityPlays": 4455,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.001170681099899,
+        "lift": 1.240673335469,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Jimi Hendrix",
+        "userPlays": 6,
+        "communityPlays": 4822,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.001267121046849,
+        "lift": 1.146246310559,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "JPEGMAFIA",
+        "userPlays": 6,
+        "communityPlays": 14336,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.003767201851437,
+        "lift": 0.3855468547373,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Maroon 5",
+        "userPlays": 6,
+        "communityPlays": 17196,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.004518750211866,
+        "lift": 0.321423569988,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Pink Floyd",
+        "userPlays": 6,
+        "communityPlays": 46261,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.01215642611951,
+        "lift": 0.1194786042133,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Soundgarden",
+        "userPlays": 6,
+        "communityPlays": 11675,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.003067946541261,
+        "lift": 0.4734218166607,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Taylor Swift",
+        "userPlays": 6,
+        "communityPlays": 75900,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.01994493725754,
+        "lift": 0.07282213056012,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Cure",
+        "userPlays": 6,
+        "communityPlays": 27917,
+        "userShare": 0.001452432824982,
+        "communityShare": 0.007336005446886,
+        "lift": 0.1979868793034,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "AC/DC",
+        "userPlays": 5,
+        "communityPlays": 20643,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.005424549931585,
+        "lift": 0.2231264718272,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Audioslave",
+        "userPlays": 5,
+        "communityPlays": 7882,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.002071225236679,
+        "lift": 0.5843694186663,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Florence + The Machine",
+        "userPlays": 5,
+        "communityPlays": 14010,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.003681535849514,
+        "lift": 0.3287651504588,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Foreigner",
+        "userPlays": 5,
+        "communityPlays": 4852,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.001275004421259,
+        "lift": 0.9492992081467,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Geese",
+        "userPlays": 5,
+        "communityPlays": 10154,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.00266825945867,
+        "lift": 0.4536143153366,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lil Uzi Vert",
+        "userPlays": 5,
+        "communityPlays": 16105,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.004232058162485,
+        "lift": 0.2859981221936,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Linkin Park",
+        "userPlays": 5,
+        "communityPlays": 111138,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.02920474883963,
+        "lift": 0.041443968381,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Mötley Crüe",
+        "userPlays": 5,
+        "communityPlays": 4377,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.001150184326433,
+        "lift": 1.052318884608,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Panic! At The Disco",
+        "userPlays": 5,
+        "communityPlays": 18419,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.004840129108651,
+        "lift": 0.2500678515624,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Scorpions",
+        "userPlays": 5,
+        "communityPlays": 7651,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.002010523253721,
+        "lift": 0.6020127771439,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Snow Patrol",
+        "userPlays": 5,
+        "communityPlays": 4078,
+        "userShare": 0.001210360687485,
+        "communityShare": 0.001071613361479,
+        "lift": 1.129475173597,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "3 Doors Down",
+        "userPlays": 4,
+        "communityPlays": 6723,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001766664205302,
+        "lift": 0.5480886220946,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Alex G",
+        "userPlays": 4,
+        "communityPlays": 12414,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.003262140330897,
+        "lift": 0.2968261484084,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Erykah Badu",
+        "userPlays": 4,
+        "communityPlays": 11517,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.003026427436035,
+        "lift": 0.3199444131581,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Franz Ferdinand",
+        "userPlays": 4,
+        "communityPlays": 8827,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.002319551530597,
+        "lift": 0.4174464491155,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Jeff Buckley",
+        "userPlays": 4,
+        "communityPlays": 6957,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001828154525701,
+        "lift": 0.5296535584796,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "KISS",
+        "userPlays": 4,
+        "communityPlays": 9445,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.002481949043444,
+        "lift": 0.3901323246524,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lenny Kravitz",
+        "userPlays": 4,
+        "communityPlays": 4119,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001082387306506,
+        "lift": 0.8945860175631,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Limp Bizkit",
+        "userPlays": 4,
+        "communityPlays": 16456,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.004324293643083,
+        "lift": 0.2239183158934,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Miguel",
+        "userPlays": 4,
+        "communityPlays": 6079,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001597434434632,
+        "lift": 0.6061522958286,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Prince",
+        "userPlays": 4,
+        "communityPlays": 15206,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.003995819709329,
+        "lift": 0.2423253851337,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Sam Smith",
+        "userPlays": 4,
+        "communityPlays": 6942,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001824212838496,
+        "lift": 0.5307980130139,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Slow Pulp",
+        "userPlays": 4,
+        "communityPlays": 3950,
+        "userShare": 0.0009682885499879,
+        "communityShare": 0.001037977630662,
+        "lift": 0.9328607104664,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Akon",
+        "userPlays": 3,
+        "communityPlays": 5590,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001468935431747,
+        "lift": 0.4943828004932,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ariana Grande",
+        "userPlays": 3,
+        "communityPlays": 41997,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.01103593583669,
+        "lift": 0.06580469687732,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Beach House",
+        "userPlays": 3,
+        "communityPlays": 10189,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.002677456728815,
+        "lift": 0.2712336691291,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Billy Idol",
+        "userPlays": 3,
+        "communityPlays": 5028,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001321253551132,
+        "lift": 0.5496419758864,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Bon Jovi",
+        "userPlays": 3,
+        "communityPlays": 10233,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.002689019011283,
+        "lift": 0.2700674147129,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Dolly Parton",
+        "userPlays": 3,
+        "communityPlays": 15080,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.003962709536807,
+        "lift": 0.183262589838,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Electric Light Orchestra",
+        "userPlays": 3,
+        "communityPlays": 9172,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.002410210336313,
+        "lift": 0.3013083138636,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Gucci Mane",
+        "userPlays": 3,
+        "communityPlays": 4989,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001311005164399,
+        "lift": 0.5539386359504,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ice Cube",
+        "userPlays": 3,
+        "communityPlays": 4416,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001160432713166,
+        "lift": 0.6258151845011,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "John Mayer",
+        "userPlays": 3,
+        "communityPlays": 5920,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001555652550258,
+        "lift": 0.46682429979,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lady Gaga",
+        "userPlays": 3,
+        "communityPlays": 33284,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.008746341128852,
+        "lift": 0.0830308813471,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lil Baby",
+        "userPlays": 3,
+        "communityPlays": 5478,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001439504167283,
+        "lift": 0.5044906635189,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lord Huron",
+        "userPlays": 3,
+        "communityPlays": 5962,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001566689274433,
+        "lift": 0.4635357019049,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Neil Young",
+        "userPlays": 3,
+        "communityPlays": 10971,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.002882950021771,
+        "lift": 0.2519004516231,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Paramore",
+        "userPlays": 3,
+        "communityPlays": 30700,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.008067319812996,
+        "lift": 0.09001953924289,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Queen",
+        "userPlays": 3,
+        "communityPlays": 31617,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.008308288290798,
+        "lift": 0.08740866795574,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Queens of the Stone Age",
+        "userPlays": 3,
+        "communityPlays": 21611,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.005678920145884,
+        "lift": 0.1278793139955,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ravyn Lenae",
+        "userPlays": 3,
+        "communityPlays": 4931,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001295763973872,
+        "lift": 0.5604542394558,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Rihanna",
+        "userPlays": 3,
+        "communityPlays": 23570,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.006193704494864,
+        "lift": 0.117250736307,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "ScHoolboy Q",
+        "userPlays": 3,
+        "communityPlays": 4826,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001268172163437,
+        "lift": 0.5726481257266,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Stevie Wonder",
+        "userPlays": 3,
+        "communityPlays": 11822,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.003106575075871,
+        "lift": 0.2337675397358,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Weeknd",
+        "userPlays": 3,
+        "communityPlays": 51359,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.01349607421093,
+        "lift": 0.05380945607891,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "TOTO",
+        "userPlays": 3,
+        "communityPlays": 8310,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.002183694711596,
+        "lift": 0.3325631594172,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ty Dolla $ign",
+        "userPlays": 3,
+        "communityPlays": 5039,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001324144121749,
+        "lift": 0.5484421223966,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Westside Cowboy",
+        "userPlays": 3,
+        "communityPlays": 6273,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.001648413589151,
+        "lift": 0.440554735335,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ye",
+        "userPlays": 3,
+        "communityPlays": 73514,
+        "userShare": 0.0007262164124909,
+        "communityShare": 0.01931794621279,
+        "lift": 0.03759283748343,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "5 Seconds of Summer",
+        "userPlays": 2,
+        "communityPlays": 7234,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001900944349421,
+        "lift": 0.2546861906513,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Billie Eilish",
+        "userPlays": 2,
+        "communityPlays": 33161,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.008714019293771,
+        "lift": 0.05555923835744,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Blue Öyster Cult",
+        "userPlays": 2,
+        "communityPlays": 3947,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001037189293221,
+        "lift": 0.4667848753917,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Cavetown",
+        "userPlays": 2,
+        "communityPlays": 6934,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.00182211060532,
+        "lift": 0.2657052066875,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Chief Keef",
+        "userPlays": 2,
+        "communityPlays": 6002,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001577200440313,
+        "lift": 0.3069643290855,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Conan Gray",
+        "userPlays": 2,
+        "communityPlays": 7524,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001977150302051,
+        "lift": 0.2448697372636,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Deep Purple",
+        "userPlays": 2,
+        "communityPlays": 7513,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001974259731434,
+        "lift": 0.2452282581088,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Duran Duran",
+        "userPlays": 2,
+        "communityPlays": 10351,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002720026950629,
+        "lift": 0.1779924551416,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Earl Sweatshirt",
+        "userPlays": 2,
+        "communityPlays": 6513,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001711480584431,
+        "lift": 0.282880378193,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Foster The People",
+        "userPlays": 2,
+        "communityPlays": 6032,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001585083814723,
+        "lift": 0.30543764973,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Joji",
+        "userPlays": 2,
+        "communityPlays": 24993,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.006567639221049,
+        "lift": 0.07371663678515,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Journey",
+        "userPlays": 2,
+        "communityPlays": 5603,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001472351560658,
+        "lift": 0.3288238270875,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Keane",
+        "userPlays": 2,
+        "communityPlays": 4840,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001271851071495,
+        "lift": 0.3806611370188,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Lil Peep",
+        "userPlays": 2,
+        "communityPlays": 8496,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002232571632939,
+        "lift": 0.2168549791868,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Mitski",
+        "userPlays": 2,
+        "communityPlays": 22009,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.005783506246392,
+        "lift": 0.08371120465133,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Morgan Wallen",
+        "userPlays": 2,
+        "communityPlays": 6899,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001812913335175,
+        "lift": 0.2670531820802,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Nicki Minaj",
+        "userPlays": 2,
+        "communityPlays": 9054,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002379202396966,
+        "lift": 0.203490159396,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Oliver Tree",
+        "userPlays": 2,
+        "communityPlays": 8365,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002198147564681,
+        "lift": 0.2202510344496,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Robbie Williams",
+        "userPlays": 2,
+        "communityPlays": 4238,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001113658024999,
+        "lift": 0.4347333419469,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Simple Minds",
+        "userPlays": 2,
+        "communityPlays": 4408,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.00115833047999,
+        "lift": 0.4179673101568,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "sombr",
+        "userPlays": 2,
+        "communityPlays": 10434,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002741837619831,
+        "lift": 0.1765765672964,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Supertramp",
+        "userPlays": 2,
+        "communityPlays": 5888,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001547243617554,
+        "lift": 0.3129075922505,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Temper City",
+        "userPlays": 2,
+        "communityPlays": 4863,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001277894991876,
+        "lift": 0.378860765612,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The White Stripes",
+        "userPlays": 2,
+        "communityPlays": 9182,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.002412838127783,
+        "lift": 0.2006534418614,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Weezer",
+        "userPlays": 2,
+        "communityPlays": 24048,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.006319312927131,
+        "lift": 0.07661343576061,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "ZZ Top",
+        "userPlays": 2,
+        "communityPlays": 5193,
+        "userShare": 0.0004841442749939,
+        "communityShare": 0.001364612110387,
+        "lift": 0.3547852692415,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "All Time Low",
+        "userPlays": 1,
+        "communityPlays": 5640,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001482074389098,
+        "lift": 0.1633333247492,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Beastie Boys",
+        "userPlays": 1,
+        "communityPlays": 9755,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002563410579015,
+        "lift": 0.09443361881964,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Beyoncé",
+        "userPlays": 1,
+        "communityPlays": 20210,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.005310766560933,
+        "lift": 0.04558139295327,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Black Country, New Road",
+        "userPlays": 1,
+        "communityPlays": 6993,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001837614574993,
+        "lift": 0.1317317248085,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Black Eyed Peas",
+        "userPlays": 1,
+        "communityPlays": 10485,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002755239356328,
+        "lift": 0.08785884135294,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Black Sabbath",
+        "userPlays": 1,
+        "communityPlays": 14930,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.003923292664757,
+        "lift": 0.06170126936273,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "BROCKHAMPTON",
+        "userPlays": 1,
+        "communityPlays": 4628,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.00121614189233,
+        "lift": 0.1990492548802,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Busta Rhymes",
+        "userPlays": 1,
+        "communityPlays": 4368,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.00114781931411,
+        "lift": 0.2108974248135,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Car Seat Headrest",
+        "userPlays": 1,
+        "communityPlays": 11081,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002911855727942,
+        "lift": 0.08313328685007,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Central Cee",
+        "userPlays": 1,
+        "communityPlays": 8416,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002211549301178,
+        "lift": 0.1094581691523,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Death Cab for Cutie",
+        "userPlays": 1,
+        "communityPlays": 12097,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.003178839341297,
+        "lift": 0.07615110784373,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Def Leppard",
+        "userPlays": 1,
+        "communityPlays": 5012,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.00131704908478,
+        "lift": 0.1837988730219,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Dr. Dre",
+        "userPlays": 1,
+        "communityPlays": 8254,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002168979079364,
+        "lift": 0.1116064879556,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Frank Sinatra",
+        "userPlays": 1,
+        "communityPlays": 9945,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002613338616946,
+        "lift": 0.09262945717301,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "girl in red",
+        "userPlays": 1,
+        "communityPlays": 5285,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001388787791912,
+        "lift": 0.1743046266009,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Gracie Abrams",
+        "userPlays": 1,
+        "communityPlays": 13327,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.003502057692111,
+        "lift": 0.06912282971303,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "J Dilla",
+        "userPlays": 1,
+        "communityPlays": 4524,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001188812861042,
+        "lift": 0.20362509982,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Khalid",
+        "userPlays": 1,
+        "communityPlays": 5751,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001511242874415,
+        "lift": 0.1601808296967,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Korn",
+        "userPlays": 1,
+        "communityPlays": 20839,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.005476054644398,
+        "lift": 0.04420557376004,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Leon Bridges",
+        "userPlays": 1,
+        "communityPlays": 4317,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001134417577612,
+        "lift": 0.2133889162811,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Marvin Gaye",
+        "userPlays": 1,
+        "communityPlays": 7320,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001923543356063,
+        "lift": 0.1258469879215,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Modern Baseball",
+        "userPlays": 1,
+        "communityPlays": 4864,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001278157771023,
+        "lift": 0.1893914374148,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Mumford & Sons",
+        "userPlays": 1,
+        "communityPlays": 5938,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001560382574905,
+        "lift": 0.1551364014122,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "My Chemical Romance",
+        "userPlays": 1,
+        "communityPlays": 47331,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.0124375998068,
+        "lift": 0.01946293024837,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "One Direction",
+        "userPlays": 1,
+        "communityPlays": 6209,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001631595723742,
+        "lift": 0.1483652684145,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Ozzy Osbourne",
+        "userPlays": 1,
+        "communityPlays": 9801,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002575498419778,
+        "lift": 0.09399040420218,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Paul Simon",
+        "userPlays": 1,
+        "communityPlays": 4913,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001291033949226,
+        "lift": 0.187502534416,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Pulp",
+        "userPlays": 1,
+        "communityPlays": 5278,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001386948337882,
+        "lift": 0.1745357998457,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Quadeca",
+        "userPlays": 1,
+        "communityPlays": 5426,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001425839651639,
+        "lift": 0.1697751477305,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Skepta",
+        "userPlays": 1,
+        "communityPlays": 4047,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001063467207922,
+        "lift": 0.227625389569,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Skrillex",
+        "userPlays": 1,
+        "communityPlays": 17574,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.004618080729433,
+        "lift": 0.05241834252791,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "T.I.",
+        "userPlays": 1,
+        "communityPlays": 3946,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001036926514074,
+        "lift": 0.2334515842842,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The 1975",
+        "userPlays": 1,
+        "communityPlays": 8780,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002307200910687,
+        "lift": 0.1049202678343,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Beach Boys",
+        "userPlays": 1,
+        "communityPlays": 12876,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.003383544296812,
+        "lift": 0.0715439539908,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Cardigans",
+        "userPlays": 1,
+        "communityPlays": 6303,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001656296963561,
+        "lift": 0.1461526180526,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "The Kinks",
+        "userPlays": 1,
+        "communityPlays": 5846,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.00153620689338,
+        "lift": 0.1575778227139,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Tinashe",
+        "userPlays": 1,
+        "communityPlays": 27025,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.007101606447759,
+        "lift": 0.03408695473027,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "TV Girl",
+        "userPlays": 1,
+        "communityPlays": 15521,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.004078595140635,
+        "lift": 0.05935184276693,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Twenty One Pilots",
+        "userPlays": 1,
+        "communityPlays": 46972,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.01234326209303,
+        "lift": 0.01961168252545,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "Wiz Khalifa",
+        "userPlays": 1,
+        "communityPlays": 5913,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.001553813096229,
+        "lift": 0.1557923138146,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      },
+      {
+        "artist": "XXXTENTACION",
+        "userPlays": 1,
+        "communityPlays": 9035,
+        "userShare": 0.000242072137497,
+        "communityShare": 0.002374209593173,
+        "lift": 0.1019590427876,
+        "matchConfidence": "Normalized exact artist name; homonyms remain possible"
+      }
+    ],
+    "caveats": ["Shares and lift use only artists present in both datasets. Unmatched artists are excluded, not treated as zero.", "ListenBrainz is a self-selected community, not all music listeners or Spotify. Personal and community events use the same returned monthly window, interpreted as UTC (export timezone unspecified).", "Top-1000 chart truncation and normalized exact-name matching affect coverage; duplicate name rows are summed and homonyms may remain.", "Personal plays count known artist/title events of at least 30 seconds; ListenBrainz community counting rules can differ."]
+  },
+  "releases": {
+    "status": "available",
+    "coverage": {
+      "matchedTracks": 31,
+      "totalTracks": 11763,
+      "matchedPlays": 271,
+      "totalPlays": 44091,
+      "playPercent": 0.6146379079631
+    },
+    "rows": [
+      {
+        "artist": "Temper City",
+        "track": "Self Aware",
+        "plays": 34,
+        "firstReleaseDate": "2026-02-15",
+        "year": 2026,
+        "mbid": "0a520ae3-452f-43fe-807d-2185cb352995",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Radiohead",
+        "track": "High and Dry",
+        "plays": 27,
+        "firstReleaseDate": "1994-11-29",
+        "year": 1994,
+        "mbid": "83cf16bc-01db-4766-9e3e-f3c796639cf2",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Radiohead",
+        "track": "No Surprises",
+        "plays": 25,
+        "firstReleaseDate": "1997-05-21",
+        "year": 1997,
+        "mbid": "980a426e-623e-4ea5-98c7-008d037a0508",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "track": "Fluorescent Adolescent",
+        "plays": 24,
+        "firstReleaseDate": "2007-04-18",
+        "year": 2007,
+        "mbid": "4810b42e-2bb1-4795-874b-85df8fd62ca9",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Mitski",
+        "track": "My Love Mine All Mine",
+        "plays": 21,
+        "firstReleaseDate": "2023-09-15",
+        "year": 2023,
+        "mbid": "8f667b90-a2a4-46ea-8806-e957ea78c7bd",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Dexter and The Moonrocks",
+        "track": "Freakin’ Out",
+        "plays": 19,
+        "firstReleaseDate": "2026-03-11",
+        "year": 2026,
+        "mbid": "ce4d0fa8-64a9-493f-8a27-a247df9939ef",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Malcolm Todd",
+        "track": "Earrings",
+        "plays": 19,
+        "firstReleaseDate": "2024-04-05",
+        "year": 2024,
+        "mbid": "5167d8a8-f450-4062-be89-4d427a436540",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Audioslave",
+        "track": "Like a Stone",
+        "plays": 16,
+        "firstReleaseDate": "2002-11-15",
+        "year": 2002,
+        "mbid": "1fbc0c99-3094-410c-8c44-a3d2b87ec423",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "The Outfield",
+        "track": "Your Love",
+        "plays": 16,
+        "firstReleaseDate": "1985-06-29",
+        "year": 1985,
+        "mbid": "767e0670-bc0b-43ea-8d9b-3269370539da",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Soundgarden",
+        "track": "Black Hole Sun",
+        "plays": 9,
+        "firstReleaseDate": "1994-03-07",
+        "year": 1994,
+        "mbid": "14e9b000-b3d8-453f-abb9-26fbdecf3dbc",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Kanye West",
+        "track": "I Wonder",
+        "plays": 8,
+        "firstReleaseDate": "2007-09-05",
+        "year": 2007,
+        "mbid": "b3a7eae7-1515-45ae-8ca1-ee05544e8965",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "America",
+        "track": "A Horse with No Name",
+        "plays": 7,
+        "firstReleaseDate": "1971-12-01",
+        "year": 1971,
+        "mbid": "90141c46-0f99-4435-a90a-af666d6599b7",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Green Day",
+        "track": "When I Come Around",
+        "plays": 7,
+        "firstReleaseDate": "1994-01-28",
+        "year": 1994,
+        "mbid": "a52d71cb-443c-4910-b37c-cd70e4b0b1ef",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Tame Impala",
+        "track": "The Less I Know The Better",
+        "plays": 6,
+        "firstReleaseDate": "2015-07-15",
+        "year": 2015,
+        "mbid": "78be434c-0908-458f-9693-f16cdebb68ef",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Alice In Chains",
+        "track": "Man in the Box",
+        "plays": 4,
+        "firstReleaseDate": "1990-08-28",
+        "year": 1990,
+        "mbid": "1b055a51-eac1-4b06-a28f-d0b8c7a5e65a",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "sombr",
+        "track": "back to friends",
+        "plays": 4,
+        "firstReleaseDate": "2024-12-27",
+        "year": 2024,
+        "mbid": "e374d8c3-da4b-42ce-84dd-26f7236907c3",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "TOTO",
+        "track": "Hold the Line",
+        "plays": 3,
+        "firstReleaseDate": "1978-10-10",
+        "year": 1978,
+        "mbid": "2b24d74a-28c0-4908-a62c-747c2eaaa4ef",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "track": "I Wanna Be Yours",
+        "plays": 2,
+        "firstReleaseDate": "2013-08-01",
+        "year": 2013,
+        "mbid": "a1ff202f-f271-4646-9aac-ba7c98e3a50c",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Billie Eilish",
+        "track": "BIRDS OF A FEATHER",
+        "plays": 2,
+        "firstReleaseDate": "2024-05-17",
+        "year": 2024,
+        "mbid": "3a7e1970-069c-4761-a6b2-9046e54406bc",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Jimmy Eat World",
+        "track": "The Middle",
+        "plays": 2,
+        "firstReleaseDate": "2001-07-17",
+        "year": 2001,
+        "mbid": "e3b7cd96-c41d-497a-b401-dc7494f638db",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Nirvana",
+        "track": "Come As You Are",
+        "plays": 2,
+        "firstReleaseDate": "1991-09-24",
+        "year": 1991,
+        "mbid": "70ac6733-068f-4613-b06b-bea17cfbcc30",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Queens of the Stone Age",
+        "track": "Go With The Flow",
+        "plays": 2,
+        "firstReleaseDate": "2002-03",
+        "year": 2002,
+        "mbid": "585a4874-4225-4cea-9e3f-151c5d5ad26e",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Radiohead",
+        "track": "Nude",
+        "plays": 2,
+        "firstReleaseDate": "2007-10-10",
+        "year": 2007,
+        "mbid": "f3bea96c-5ebf-4d37-990d-14f1bc281459",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "sombr",
+        "track": "12 to 12",
+        "plays": 2,
+        "firstReleaseDate": "2025-07-24",
+        "year": 2025,
+        "mbid": "aa4d95ad-3db9-45c0-a11e-6094765cc0d4",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Steve Lacy",
+        "track": "Bad Habit",
+        "plays": 2,
+        "firstReleaseDate": "2022-07-14",
+        "year": 2022,
+        "mbid": "be62d1e4-c803-40a7-b806-62af232f9972",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Adele",
+        "track": "Rolling in the Deep",
+        "plays": 1,
+        "firstReleaseDate": "2010-10-21",
+        "year": 2010,
+        "mbid": "1a13c710-4b7e-4701-8968-cd61f2e58110",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Djo",
+        "track": "End of Beginning",
+        "plays": 1,
+        "firstReleaseDate": "2022-09-16",
+        "year": 2022,
+        "mbid": "74f3b043-c0b4-4590-8c10-bfc4e3a06fef",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Foo Fighters",
+        "track": "The Pretender",
+        "plays": 1,
+        "firstReleaseDate": "2007-07-21",
+        "year": 2007,
+        "mbid": "ffb3f2b6-460d-4334-8221-c4912df88972",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Keane",
+        "track": "Somewhere Only We Know",
+        "plays": 1,
+        "firstReleaseDate": "2004-02-16",
+        "year": 2004,
+        "mbid": "0868857f-740f-47c1-a2c7-b6323c185c63",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Rage Against The Machine",
+        "track": "Killing In The Name",
+        "plays": 1,
+        "firstReleaseDate": "1992-09-04",
+        "year": 1992,
+        "mbid": "5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      },
+      {
+        "artist": "Tame Impala",
+        "track": "New Person, Same Old Mistakes",
+        "plays": 1,
+        "firstReleaseDate": "2015-07-15",
+        "year": 2015,
+        "mbid": "f078699c-9b68-4040-9ba4-b1e4f7d86598",
+        "matchConfidence": "Normalized exact artist + title; recording version unverified"
+      }
+    ],
+    "decades": [
+      {
+        "decade": "1970s",
+        "plays": 10,
+        "tracks": 2
+      },
+      {
+        "decade": "1980s",
+        "plays": 16,
+        "tracks": 1
+      },
+      {
+        "decade": "1990s",
+        "plays": 75,
+        "tracks": 7
+      },
+      {
+        "decade": "2000s",
+        "plays": 56,
+        "tracks": 8
+      },
+      {
+        "decade": "2010s",
+        "plays": 10,
+        "tracks": 4
+      },
+      {
+        "decade": "2020s",
+        "plays": 104,
+        "tracks": 9
+      }
+    ],
+    "sampleSize": 104,
+    "catalogDatesAvailable": 102,
+    "sampleRule": "Every eighth distinct recording in global monthly top-1000 chart order; chosen without consulting personal history.",
+    "caveats": ["Pilot uses an independent chart sample, not the full personal catalog. Coverage is selective and not representative.", "MusicBrainz first-release-date is the earliest cataloged release of this recording, not necessarily the original composition or first performance.", "Exact artist/title matching cannot verify Spotify recording versions. Decades describe matched events only. Coverage denominators count normalized artist/title pairs, which can merge whitespace/case variants."]
+  },
+  "acoustic": {
+    "status": "available",
+    "coverage": {
+      "matchedTracks": 22,
+      "totalTracks": 11763,
+      "matchedPlays": 167,
+      "totalPlays": 44091,
+      "playPercent": 0.3787621056451
+    },
+    "rows": [
+      {
+        "artist": "Adele",
+        "track": "Rolling in the Deep",
+        "plays": 1,
+        "mbid": "1a13c710-4b7e-4701-8968-cd61f2e58110",
+        "bpm": 104.867263794,
+        "spectralCentroid": 1262.55578613,
+        "averageLoudness": 0.523566663265,
+        "x": -1.365148832088,
+        "y": 2.351716507091
+      },
+      {
+        "artist": "Alice In Chains",
+        "track": "Man in the Box",
+        "plays": 4,
+        "mbid": "1b055a51-eac1-4b06-a28f-d0b8c7a5e65a",
+        "bpm": 110.291419983,
+        "spectralCentroid": 1173.45861816,
+        "averageLoudness": 0.891544222832,
+        "x": 0.2170023319771,
+        "y": 0.2468143645368
+      },
+      {
+        "artist": "America",
+        "track": "A Horse with No Name",
+        "plays": 7,
+        "mbid": "90141c46-0f99-4435-a90a-af666d6599b7",
+        "bpm": 124.163658142,
+        "spectralCentroid": 860.442199707,
+        "averageLoudness": 0.781889855862,
+        "x": -1.038419512524,
+        "y": 0.3568019953143
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "track": "Fluorescent Adolescent",
+        "plays": 24,
+        "mbid": "4810b42e-2bb1-4795-874b-85df8fd62ca9",
+        "bpm": 112.116264343,
+        "spectralCentroid": 2049.76025391,
+        "averageLoudness": 0.931756734848,
+        "x": 1.905736775457,
+        "y": 0.1462552867432
+      },
+      {
+        "artist": "Arctic Monkeys",
+        "track": "I Wanna Be Yours",
+        "plays": 2,
+        "mbid": "a1ff202f-f271-4646-9aac-ba7c98e3a50c",
+        "bpm": 135.182922363,
+        "spectralCentroid": 755.963867188,
+        "averageLoudness": 0.871096372604,
+        "x": -0.9215633914215,
+        "y": -0.4532931211443
+      },
+      {
+        "artist": "Audioslave",
+        "track": "Like a Stone",
+        "plays": 16,
+        "mbid": "1fbc0c99-3094-410c-8c44-a3d2b87ec423",
+        "bpm": 107.895698547,
+        "spectralCentroid": 1054.09631348,
+        "averageLoudness": 0.723149418831,
+        "x": -0.7849181283353,
+        "y": 1.177608068541
+      },
+      {
+        "artist": "Foo Fighters",
+        "track": "The Pretender",
+        "plays": 1,
+        "mbid": "ffb3f2b6-460d-4334-8221-c4912df88972",
+        "bpm": 172.264953613,
+        "spectralCentroid": 1871.30126953,
+        "averageLoudness": 0.807868123055,
+        "x": 0.2244311307064,
+        "y": -0.9998520135543
+      },
+      {
+        "artist": "Green Day",
+        "track": "When I Come Around",
+        "plays": 7,
+        "mbid": "a52d71cb-443c-4910-b37c-cd70e4b0b1ef",
+        "bpm": 97.9415969849,
+        "spectralCentroid": 1263.18139648,
+        "averageLoudness": 0.932236194611,
+        "x": 0.7287959763377,
+        "y": 0.4120708436748
+      },
+      {
+        "artist": "Jimmy Eat World",
+        "track": "The Middle",
+        "plays": 2,
+        "mbid": "e3b7cd96-c41d-497a-b401-dc7494f638db",
+        "bpm": 162.273071289,
+        "spectralCentroid": 956.421203613,
+        "averageLoudness": 0.944739997387,
+        "x": -0.5583959043208,
+        "y": -1.595677418504
+      },
+      {
+        "artist": "Kanye West",
+        "track": "I Wonder",
+        "plays": 8,
+        "mbid": "b3a7eae7-1515-45ae-8ca1-ee05544e8965",
+        "bpm": 95.5291061401,
+        "spectralCentroid": 991.952331543,
+        "averageLoudness": 0.926836669445,
+        "x": 0.264177846455,
+        "y": 0.4603838226038
+      },
+      {
+        "artist": "Keane",
+        "track": "Somewhere Only We Know",
+        "plays": 1,
+        "mbid": "0868857f-740f-47c1-a2c7-b6323c185c63",
+        "bpm": 172.265090942,
+        "spectralCentroid": 1001.25970459,
+        "averageLoudness": 0.847297012806,
+        "x": -1.086007881125,
+        "y": -1.369158799761
+      },
+      {
+        "artist": "Nirvana",
+        "track": "Come As You Are",
+        "plays": 2,
+        "mbid": "70ac6733-068f-4613-b06b-bea17cfbcc30",
+        "bpm": 120.91947937,
+        "spectralCentroid": 1844.27258301,
+        "averageLoudness": 0.962090611458,
+        "x": 1.58738174914,
+        "y": -0.3091125699325
+      },
+      {
+        "artist": "Queens of the Stone Age",
+        "track": "Go With The Flow",
+        "plays": 2,
+        "mbid": "585a4874-4225-4cea-9e3f-151c5d5ad26e",
+        "bpm": 162.619812012,
+        "spectralCentroid": 1075.03112793,
+        "averageLoudness": 0.978078246117,
+        "x": -0.1942461176295,
+        "y": -1.758467952571
+      },
+      {
+        "artist": "Radiohead",
+        "track": "High and Dry",
+        "plays": 27,
+        "mbid": "83cf16bc-01db-4766-9e3e-f3c796639cf2",
+        "bpm": 88.3270111084,
+        "spectralCentroid": 793.462158203,
+        "averageLoudness": 0.942079842091,
+        "x": 0.08747697222888,
+        "y": 0.554389928244
+      },
+      {
+        "artist": "Radiohead",
+        "track": "No Surprises",
+        "plays": 25,
+        "mbid": "980a426e-623e-4ea5-98c7-008d037a0508",
+        "bpm": 154.309616089,
+        "spectralCentroid": 721.544311523,
+        "averageLoudness": 0.94081556797,
+        "x": -0.8823349625952,
+        "y": -1.38566619375
+      },
+      {
+        "artist": "Radiohead",
+        "track": "Nude",
+        "plays": 2,
+        "mbid": "f3bea96c-5ebf-4d37-990d-14f1bc281459",
+        "bpm": 128.405685425,
+        "spectralCentroid": 492.188140869,
+        "averageLoudness": 0.609732151031,
+        "x": -2.573438916541,
+        "y": 1.066335684441
+      },
+      {
+        "artist": "Rage Against The Machine",
+        "track": "Killing In The Name",
+        "plays": 1,
+        "mbid": "5f64bf87-a18e-4ac0-8a49-dc1d500a8ba5",
+        "bpm": 89.9424362183,
+        "spectralCentroid": 1439.13452148,
+        "averageLoudness": 0.878820598125,
+        "x": 0.8726435366068,
+        "y": 0.9593805720188
+      },
+      {
+        "artist": "Soundgarden",
+        "track": "Black Hole Sun",
+        "plays": 9,
+        "mbid": "14e9b000-b3d8-453f-abb9-26fbdecf3dbc",
+        "bpm": 106.486053467,
+        "spectralCentroid": 1689.09533691,
+        "averageLoudness": 0.865365207195,
+        "x": 1.028256711197,
+        "y": 0.5919183666317
+      },
+      {
+        "artist": "Tame Impala",
+        "track": "New Person, Same Old Mistakes",
+        "plays": 1,
+        "mbid": "f078699c-9b68-4040-9ba4-b1e4f7d86598",
+        "bpm": 151.944763184,
+        "spectralCentroid": 1151.07788086,
+        "averageLoudness": 0.874846041203,
+        "x": -0.4334288153299,
+        "y": -0.8902332358455
+      },
+      {
+        "artist": "Tame Impala",
+        "track": "The Less I Know The Better",
+        "plays": 6,
+        "mbid": "78be434c-0908-458f-9693-f16cdebb68ef",
+        "bpm": 117.135108948,
+        "spectralCentroid": 1212.62744141,
+        "averageLoudness": 0.954539716244,
+        "x": 0.5066840268295,
+        "y": -0.2766714564239
+      },
+      {
+        "artist": "The Outfield",
+        "track": "Your Love",
+        "plays": 16,
+        "mbid": "767e0670-bc0b-43ea-8d9b-3269370539da",
+        "bpm": 129.788391113,
+        "spectralCentroid": 1793.63110352,
+        "averageLoudness": 0.869417667389,
+        "x": 0.9324192914011,
+        "y": -0.09253850123763
+      },
+      {
+        "artist": "TOTO",
+        "track": "Hold the Line",
+        "plays": 3,
+        "mbid": "2b24d74a-28c0-4908-a62c-747c2eaaa4ef",
+        "bpm": 96.0545501709,
+        "spectralCentroid": 1813.73022461,
+        "averageLoudness": 0.887079179287,
+        "x": 1.482896113574,
+        "y": 0.8069958228834
+      }
+    ],
+    "pca": {
+      "varianceExplained": [0.4051877537652, 0.3569295360027],
+      "features": ["bpm", "spectralCentroid", "averageLoudness"],
+      "loadings": [
+        [-0.3456494180461, -0.7961694976499],
+        [0.7522056632528, 0.08131713355878],
+        [0.5609929767606, -0.5995845685153]
+      ]
+    },
+    "sampleSize": 104,
+    "descriptorsAvailable": 50,
+    "caveats": ["Normalized exact artist/title is only a recording candidate; Spotify recording versions are unverified. Coverage denominators count normalized artist/title pairs, which can merge whitespace/case variants.", "AcousticBrainz stopped accepting submissions in 2022; many newer recordings have no analysis.", "Only matched recordings with finite tempo, spectral centroid and average loudness are included. These descriptors are not emotional-state measurements.", "PCA uses standardized descriptors and requires at least five matched tracks. Axes are relative to this small sample, not universal sonic traits."]
+  }
+}

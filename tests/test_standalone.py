@@ -8,7 +8,7 @@ from test_site import Document, ROOT
 class StandaloneProjectTests(unittest.TestCase):
     def test_project_identity_and_sharing(self):
         for path, name, url in (
-            ('spotify-title-lab/index.html', 'Spotify Title Lab', 'https://gabrielcirker.github.io/spotify-title-lab/'),
+            ('spotify-title-lab/index.html', 'Spotify Listening Lab', 'https://gabrielcirker.github.io/spotify-title-lab/'),
             ('desktop-widgets/index.html', 'DESKTOP IN STEREO', 'https://gabrielcirker.github.io/desktop-widgets/'),
         ):
             with self.subTest(path=path):
@@ -26,9 +26,10 @@ class StandaloneProjectTests(unittest.TestCase):
                 self.assertNotIn('side-projects.html',nav)
                 for tag,attrs in Document(nav).elements:
                     if tag=='a':self.assertEqual(attrs['href'],'./')
-                self.assertIn('navigator.clipboard.writeText(url)',text)
-                self.assertIn('fallback.select()',text)
-                self.assertIn('Project link copied.',text)
+                script = text + ((ROOT/'spotify-title-lab/lab.js').read_text() if path.startswith('spotify-') else '')
+                self.assertIn('navigator.clipboard.writeText(url)',script)
+                self.assertIn('fallback.select()',script)
+                self.assertIn('Project link copied.',script)
                 self.assertIn('https://gabrielcirker.github.io/',text)
 
     def test_old_spotify_links_preserve_query_and_fragment(self):
@@ -49,7 +50,7 @@ class StandaloneProjectTests(unittest.TestCase):
 
     def test_report_and_walkthrough_content_preserved(self):
         expected = {
-            'spotify-title-lab/index.html': '5c2652369356605943d1a044ab6dea38836a34913e1ef5e92e0c094a733f7749',
+            'spotify-title-lab/title-analysis.html': '5c2652369356605943d1a044ab6dea38836a34913e1ef5e92e0c094a733f7749',
             'desktop-widgets/index.html': '40e293e67db2883ab489f295ebcac337ca1453bd1bdf0c4aa01d4bca1a0bd602',
         }
         for path,digest in expected.items():

@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from test_site import Document, ROOT
 
-REPORT = ROOT / 'spotify-title-lab/index.html'
+REPORT = ROOT / 'spotify-title-lab/title-analysis.html'
 class TextOnly(HTMLParser):
     def __init__(self, text):
         super().__init__(); self.parts=[]; self.skip=0; self.feed(text)
@@ -30,7 +30,7 @@ class SpotifyTests(unittest.TestCase):
         self.assertIn('mental jungle gym',text)
         self.assertIn('my own Spotify data',text)
     def test_publication_date_removed(self):
-        text = (ROOT / "spotify-title-lab/index.html").read_text()
+        text = REPORT.read_text()
         header = text[text.index('<header id="title-block-header"'):text.index('</header>')]
         self.assertNotIn("Published", header)
         self.assertNotIn('class="date"', header)
@@ -90,7 +90,8 @@ class SpotifyTests(unittest.TestCase):
         for forbidden in ('/Users/','@gmail.com','Private working material','Nothing has been published','owner-only','tripledecor4.chatgpt.site'):
             self.assertNotIn(forbidden,html)
         files={p.name for p in REPORT.parent.iterdir()}
-        self.assertEqual(files,{'index.html'})
-        self.assertNotIn('.json', ''.join(files));self.assertNotIn('.csv',''.join(files))
+        self.assertTrue({'index.html','title-analysis.html','lab.css','lab.js','data'}.issubset(files))
+        self.assertNotIn('StreamingHistory_music_0.json',files)
+        self.assertNotIn('music_history_minimal.csv',files)
 
 if __name__=='__main__':unittest.main()
