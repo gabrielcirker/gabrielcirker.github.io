@@ -38,6 +38,13 @@ class SpotifyTests(unittest.TestCase):
         self.assertIn("The archive window is 5 November 2025 through 5 November 2026.", text)
         self.assertIn("December 2025 through October 2026", text)
 
+    def test_personal_project_scope_preserves_evidence_limits(self):
+        text = REPORT.read_text()
+        self.assertNotIn('before academic' + ' use', text)
+        self.assertNotIn('The project was developed with' + ' AI assistance;', text)
+        self.assertIn('independent, exploratory extension inspired by LING 343', text)
+        self.assertIn('not lyrics, audio, emotional state or language comprehension.</p>', text)
+
     def test_report_structure_and_return_links(self):
         text=REPORT.read_text(); doc=Document(text)
         ids=[a['id'] for t,a in doc.elements if 'id' in a]

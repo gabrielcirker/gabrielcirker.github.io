@@ -49,7 +49,7 @@ class StandaloneProjectTests(unittest.TestCase):
 
     def test_report_and_walkthrough_content_preserved(self):
         expected = {
-            'spotify-title-lab/index.html': '3e63fd71e24e33363294c5bebc1fd390cfbe403345e7c85923f83385bf8fe626',
+            'spotify-title-lab/index.html': '5c2652369356605943d1a044ab6dea38836a34913e1ef5e92e0c094a733f7749',
             'desktop-widgets/index.html': '40e293e67db2883ab489f295ebcac337ca1453bd1bdf0c4aa01d4bca1a0bd602',
         }
         for path,digest in expected.items():
